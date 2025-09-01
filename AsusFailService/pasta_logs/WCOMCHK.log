@@ -1,0 +1,40 @@
+COM1 Testing........
+00000001: io base = 3f8
+00000002: Ftest Loop
+00000003: Read_IO_Byte(baseaddr) 1 = 55
+00000004: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate .115200BPS.......................................... OK
+00000005: Read_IO_Byte(baseaddr) 1 = 55
+00000006: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate . 57600BPS.......................................... OK
+00000007: Read_IO_Byte(baseaddr) 1 = 55
+00000008: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate . 38400BPS.......................................... OK
+00000009: Read_IO_Byte(baseaddr) 1 = 55
+00000010: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate . 19200BPS.......................................... OK
+00000011: Read_IO_Byte(baseaddr) 1 = 55
+00000012: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate .  9600BPS.......................................... OK
+00000013: Read_IO_Byte(baseaddr) 1 = 55
+00000014: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate .  4800BPS.......................................... OK
+00000015: Read_IO_Byte(baseaddr) 1 = 55
+00000016: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate .  2400BPS.......................................... OK
+00000017: Read_IO_Byte(baseaddr) 1 = 55
+00000018: Read_IO_Byte(baseaddr) 2 = aa
+	BaudRate .  1200BPS.......................................... OK
+00000019: _Write_IO_Byte(3fc,0x00)
+00000020: Read_IO_Byte(baseaddr+6 == 0x) = f
+00000021: _Write_IO_Byte(3fc,0x01)
+00000022: Read_IO_Byte(baseaddr+6 == Ax) = aa
+00000023: _Write_IO_Byte(3fc,0x03)
+00000024: Read_IO_Byte(baseaddr+6 == Fx) = f1
+00000025: _Write_IO_Byte(3fc,0x01)
+00000026: Read_IO_Byte(baseaddr+6 == Ax) = a5
+00000027: _Write_IO_Byte(3fc,0x00)
+00000028: Read_IO_Byte(baseaddr+6 == 0x) = a
+	Modem Test .................................................. OK
+                            return code = 0 
+*** CHECK 1 COM PASS *** 

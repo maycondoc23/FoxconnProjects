@@ -1,0 +1,69 @@
+Intel (R) ME Manuf Version: 16.1.30.2319
+Copyright (C) 2005 - 2023, Intel Corporation. All rights reserved.
+
+::MEManufWin64.exe -verbose 
+Intel (R) ME Manuf Version: 16.1.30.2319
+Copyright (C) 2005 - 2023, Intel Corporation. All rights reserved.
+
+LPC Device Id: 7A87.
+Platform: Alder Lake Platform 
+    FW Status Register1                          0x94000245
+    FW Status Register2                          0x60000506
+    FW Status Register3                          0x00000020
+    FW Status Register4                          0x00004000
+    FW Status Register5                          0x00000000
+    FW Status Register6                          0x40200002
+
+General FW Information
+    Current FW State                             Normal
+    Flash Partition Table                        Valid
+    FW Memory State                              CM0 with UMA
+    FW Initialization                            Complete
+    BUP Loading state                            Success
+    FW Error Code                                No Error
+    FW Mode Of Operation                         Normal
+    SPI Flash Log                                Not Present
+    FW Loading Phase                             HOSTCOMM Module
+    FW Loading Phase Status                      UNKNOWN
+    ME File System Corrupted                     No
+    RPMC status                                  OK
+
+Feature enablement is 0x11309100
+ME initialization state valid
+ME operation mode valid
+Current operation state valid
+ME error state valid
+MFS is not corrupted
+PCH SKU Emulation is correct
+
+Request Intel(R) ME BIST status command... done
+
+Get Intel(R) ME test data command... done
+
+Get Intel(R) ME test data command... done
+Total of 8 Intel(R) ME test result retrieved
+
+
+
+Policy Kernel - Boot Guard : Self Test - Passed
+
+VDM - General : VDM engine - Passed
+
+PAVP - General : Set Edp Port - Passed
+
+Chassis - PCHC Tests : PCHC Health Test - Passed
+
+Chassis - ChipsetInit Tests : ChipsetInit Health Test - Passed
+
+IP Loading - PMCP Tests : PMCP Health Test - Passed
+
+IP Loading - NPHY IPL Tests : NPHY IPL Health Test - Passed
+
+IP Loading - SPHY IPL Tests : SPHY IPL Health Test - Passed
+
+Clear Intel(R) ME test data command... done
+
+
+MEManuf Operation Passed
+ 
+*** ME test PASS *** 

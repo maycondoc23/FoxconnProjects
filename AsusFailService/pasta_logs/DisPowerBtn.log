@@ -1,0 +1,10 @@
+   WHMON - ASUS(R) WHMON Utility Rev. 3.03 Build Sep 29 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+....Start test item (DisPowerButton)...
+[DisPowerButton Test]: PASS!
+....End test item (DisPowerButton).....
+
+1 items tested!
+0 items failed!
+                      Return Code = 0
+* Disable Power Button initial PASS *

@@ -1,0 +1,14 @@
+::WMC.EXE /REFFRQ 2400 -TOL 1 
+   WMC - ASUS(R) WMC Utility Rev. 2.43 Build Jun  5 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+                      Return Code = 255
+::WMC.EXE /REFFRQ 2133 -TOL 1 
+   WMC - ASUS(R) WMC Utility Rev. 2.43 Build Jun  5 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+                      Return Code = 0
+ 
+*** WMC test PASS *** 

@@ -1,0 +1,41 @@
+ 
+**************************************** 
+*** Realtek Lan RTL8111H WEFUSE Test *** 
+**************************************** 
+*** PPIDMAC pass *** 
+ 
+::Make Sure The SC_MAC1.INI Is Not Empty 
+::wat.exe /C SC_MAC1.INI ERROR.INI 
+Compare SC_MAC1.INI & ERROR.INI12/0File compare error with different filesize !! 
+ 
+::Pre_CheckMAC 
+::RTNicPgW64.exe /# 1 /EFUSE /VMAC 
+::*** Check wether the MAC are default *** 
+Compare MACCHK.DAT & DEF_MAC.INI12/12Compare Line 1 to -1
+Compare Byte 1 to 12
+line	Arrange	file1(MACCHK.DAT)	file2(DEF_MAC.INI)
+1   	0   	C		0
+1   	1   	C		0
+1   	2   	2		0
+1   	3   	8		0
+1   	4   	A		0
+1   	5   	A		0
+1   	6   	7		0
+1   	7   	7		0
+1   	8   	D		0
+1   	9   	5		0
+1   	10   	3		0
+1   	11   	4		0
+... File Compare different ...::*** Check wether the MAC are matched *** 
+Compare MACCHK.DAT & SC_MAC1.INI12/12Compare Line 1 to -1
+Compare Byte 1 to 12
+line	Arrange	file1(MACCHK.DAT)	file2(SC_MAC1.INI)
+... File Compare OK ... 
+::Pre_CheckCFG 
+::RTNicPgW64.exe /# 1 /EFUSE /R 
+::wat.exe /c temp3.txt golden.sou 
+Compare temp3.txt & golden.sou130/130Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(temp3.txt)	file2(golden.sou)
+... File Compare OK ... 
+*** WEFUSE PASS ! *** 

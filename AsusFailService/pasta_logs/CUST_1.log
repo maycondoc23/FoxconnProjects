@@ -1,0 +1,29 @@
+*** PCIEX1 Test *** 
+ 
+::PCIEx1_ID1_Check 
+ 
+::WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI 
+   WPCI - ASUS(R) WPCI Utility Rev. 1.45 Build Jul 11 2019
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+                      Return Code = 0
+ 
+[PCIE_0]
+Address=06:00:00
+SupportLinkSpeed=2.5|5.0|8.0GT/s
+CurrentLinkSpeed=8.0GT/s
+LinkWidth=x1
+Cross-LinkSupported=Unsupport
+ClassCode=0c0330
+ 
+::WAT.EXE /C TEMPPCIEDEVINFO.INI PCIEmpty.INI 
+Compare TEMPPCIEDEVINFO.INI & PCIEmpty.INI158/0File compare error with different filesize !! 
+ 
+::WAT.EXE /C TEMPPCIEDEVINFO.INI PCIEx1DEVINFO.ini 
+Compare TEMPPCIEDEVINFO.INI & PCIEx1DEVINFO.ini158/158Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(TEMPPCIEDEVINFO.INI)	file2(PCIEx1DEVINFO.ini)
+... File Compare OK ... 
+*** PCIEX1 TEST PASS *** 

@@ -1,0 +1,3591 @@
+[00:00:000] Time:[2024-09-13 21:56:33.290] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+[00:00:328] ---end function /vd,result 0.---
+[00:00:328] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:009] Time:[2024-09-13 21:56:54.351] 
+[00:00:009] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:009] ---start function /LOCATION.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:379] ---end function /LOCATION,result 0.---
+[00:00:379] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-09-13 21:56:54.802] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0xaa0c 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :43532.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:360] ---end function /TT,result 255.---
+[00:00:360] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:009] Time:[2024-09-13 21:56:55.172] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:568] ---end function /TT,result 0.---
+[00:00:568] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:56:55.762] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:593] ---end function /TT,result 0.---
+[00:00:593] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:56:56.371] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x106ca0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1076384.
+Aging Disk 3 success.
+[00:00:359] ---end function /TT,result 0.---
+[00:00:359] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:06.892] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:377] ---end function /LOCATION,result 0.---
+[00:00:377] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:07.333] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0xe109c 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :921756.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:344] ---end function /TT,result 255.---
+[00:00:344] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:07.693] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:553] ---end function /TT,result 0.---
+[00:00:553] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:08.262] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:562] ---end function /TT,result 0.---
+[00:00:562] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:08.840] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x13b00 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :80640.
+Aging Disk 3 success.
+[00:00:359] ---end function /TT,result 0.---
+[00:00:359] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:34.740] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:925] ---end function /LOCATION,result 0.---
+[00:00:925] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:35.728] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x4d00 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :19712.
+Aging Disk 0 success.
+[00:00:390] ---end function /TT,result 0.---
+[00:00:390] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:36.134] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:703] ---end function /TT,result 0.---
+[00:00:703] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:36.853] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:647] ---end function /TT,result 0.---
+[00:00:647] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:37.516] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x1e43f4 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1983476.
+Aging Disk 3 success.
+[00:00:453] ---end function /TT,result 0.---
+[00:00:453] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:10:24.858] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:062] ---end function /vd,result 0.---
+[00:00:062] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 12:10:41.268] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:056] ---end function /vd,result 0.---
+[00:00:056] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:009] Time:[2024-11-11 12:11:02.417] 
+[00:00:009] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:009] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:094] ---end function /LOCATION,result 0.---
+[00:00:094] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:11:02.576] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xc6fd0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :815056.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:049] ---end function /TT,result 255.---
+[00:00:049] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:11:02.646] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:259] ---end function /TT,result 0.---
+[00:00:259] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:018] Time:[2024-11-11 12:11:02.927] 
+[00:00:018] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:018] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:018] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.0GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:267] ---end function /TT,result 0.---
+[00:00:267] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 12:11:03.216] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x202ed 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :131821.
+Aging Disk 3 success.
+[00:00:056] ---end function /TT,result 0.---
+[00:00:056] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:16.379] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:16.536] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xae2b4 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :713396.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:047] ---end function /TT,result 255.---
+[00:00:047] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:16.614] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:250] ---end function /TT,result 0.---
+[00:00:250] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:16.880] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.0GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:272] ---end function /TT,result 0.---
+[00:00:272] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:17.168] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x16dcc 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :93644.
+Aging Disk 3 success.
+[00:00:063] ---end function /TT,result 0.---
+[00:00:063] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:29.837] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:29.993] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x740 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1856.
+Aging Disk 0 success.
+[00:00:047] ---end function /TT,result 0.---
+[00:00:047] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:30.056] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:261] ---end function /TT,result 0.---
+[00:00:261] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:30.333] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.0GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:267] ---end function /TT,result 0.---
+[00:00:267] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:12:30.616] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xe3c60 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :932960.
+Aging Disk 3 success.
+[00:00:048] ---end function /TT,result 0.---
+[00:00:048] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:23:39.488] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:046] ---end function /vd,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:019] Time:[2024-11-11 12:23:59.809] 
+[00:00:019] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:019] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:060] ---end function /LOCATION,result 0.---
+[00:00:060] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-11 12:23:59.930] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1eb591 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :2012561.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:050] ---end function /TT,result 255.---
+[00:00:050] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:020] Time:[2024-11-11 12:23:59.990] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:270] ---end function /TT,result 0.---
+[00:00:270] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-11 12:24:00.269] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:271] ---end function /TT,result 0.---
+[00:00:271] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:00.537] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xaeb91 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :715665.
+Aging Disk 3 success.
+[00:00:060] ---end function /TT,result 0.---
+[00:00:060] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:24:30.695] 
+[00:00:000] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:000] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:078] ---end function /LOCATION,result 0.---
+[00:00:078] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:30.851] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1a0a60 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1706592.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:051] ---end function /TT,result 255.---
+[00:00:051] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:30.903] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:268] ---end function /TT,result 0.---
+[00:00:268] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:31.171] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:269] ---end function /TT,result 0.---
+[00:00:269] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:31.441] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x7c203 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :508419.
+Aging Disk 3 success.
+[00:00:051] ---end function /TT,result 0.---
+[00:00:051] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:41.142] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:41.282] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x39051 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :233553.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:053] ---end function /TT,result 255.---
+[00:00:053] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:41.351] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:251] ---end function /TT,result 0.---
+[00:00:251] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:41.603] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:274] ---end function /TT,result 0.---
+[00:00:274] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:41.877] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1ba234 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1810996.
+Aging Disk 3 success.
+[00:00:048] ---end function /TT,result 0.---
+[00:00:048] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:00.587] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:00.727] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x135171 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1266033.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:047] ---end function /TT,result 255.---
+[00:00:047] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:00.791] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:281] ---end function /TT,result 0.---
+[00:00:281] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:01.088] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:267] ---end function /TT,result 0.---
+[00:00:267] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:01.370] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x55795 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :350101.
+Aging Disk 3 success.
+[00:00:054] ---end function /TT,result 0.---
+[00:00:054] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:25:41.360] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:089] ---end function /LOCATION,result 0.---
+[00:00:089] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:25:41.510] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x9e4e0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :648416.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:039] ---end function /TT,result 255.---
+[00:00:039] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:25:41.570] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:260] ---end function /TT,result 0.---
+[00:00:260] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:41.855] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:262] ---end function /TT,result 0.---
+[00:00:262] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:25:42.134] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xe69c 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :59036.
+Aging Disk 3 success.
+[00:00:053] ---end function /TT,result 0.---
+[00:00:053] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:30:24.992] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-11 12:30:46.431] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:100] ---end function /LOCATION,result 0.---
+[00:00:100] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:30:46.580] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xc98f9 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :825593.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:050] ---end function /TT,result 255.---
+[00:00:050] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:30:46.650] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:260] ---end function /TT,result 0.---
+[00:00:260] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:30:46.921] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:275] ---end function /TT,result 0.---
+[00:00:275] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:47.217] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1eec0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :126656.
+Aging Disk 3 success.
+[00:00:046] ---end function /TT,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:23.099] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:23.255] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x2ed60 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :191840.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:049] ---end function /TT,result 255.---
+[00:00:049] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:23.320] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:257] ---end function /TT,result 0.---
+[00:00:257] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:23.593] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:268] ---end function /TT,result 0.---
+[00:00:268] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:23.878] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1bdf79 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1826681.
+Aging Disk 3 success.
+[00:00:053] ---end function /TT,result 0.---
+[00:00:053] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:27.635] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:062] ---end function /LOCATION,result 0.---
+[00:00:062] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:27.760] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x14ff33 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1376051.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:046] ---end function /TT,result 255.---
+[00:00:046] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:27.823] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:263] ---end function /TT,result 0.---
+[00:00:263] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:28.102] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:258] ---end function /TT,result 0.---
+[00:00:258] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:28.376] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x5879c 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :362396.
+Aging Disk 3 success.
+[00:00:056] ---end function /TT,result 0.---
+[00:00:056] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:34:56.175] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:01:265] ---end function /vd,result 0.---
+[00:01:265] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:010] Time:[2024-11-11 12:35:17.387] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:059] ---end function /LOCATION,result 0.---
+[00:00:059] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:35:17.507] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x9c8cc 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :641228.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:050] ---end function /TT,result 255.---
+[00:00:050] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:35:17.567] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:259] ---end function /TT,result 0.---
+[00:00:259] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:014] Time:[2024-11-11 12:35:17.847] 
+[00:00:014] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:014] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:014] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:265] ---end function /TT,result 0.---
+[00:00:265] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 12:35:18.127] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xcda0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :52640.
+Aging Disk 3 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:44:41.239] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:01:265] ---end function /vd,result 0.---
+[00:01:265] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 12:45:03.043] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:035] ---end function /vd,result 0.---
+[00:00:035] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 12:45:07.152] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-11 12:45:27.943] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:060] ---end function /LOCATION,result 0.---
+[00:00:070] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-11 12:45:28.073] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x6947 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :26951.
+Aging Disk 0 success.
+[00:00:060] ---end function /TT,result 0.---
+[00:00:060] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 12:45:28.143] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:269] ---end function /TT,result 0.---
+[00:00:269] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 12:45:28.423] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:259] ---end function /TT,result 0.---
+[00:00:259] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 12:45:28.693] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x111167 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1118567.
+Aging Disk 3 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:14:06.641] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:046] ---end function /vd,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:014] Time:[2024-11-11 14:14:28.160] 
+[00:00:014] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:014] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:014] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:085] ---end function /LOCATION,result 0.---
+[00:00:085] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 14:14:28.306] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x3b279 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :242297.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:049] ---end function /TT,result 255.---
+[00:00:049] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:020] Time:[2024-11-11 14:14:28.366] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:270] ---end function /TT,result 0.---
+[00:00:270] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:018] Time:[2024-11-11 14:14:28.646] 
+[00:00:018] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:018] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:018] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:262] ---end function /TT,result 0.---
+[00:00:262] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:28.905] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1d379d 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1914781.
+Aging Disk 3 success.
+[00:00:062] ---end function /TT,result 0.---
+[00:00:062] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:15:19.572] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:15:19.713] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x12d083 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1233027.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:052] ---end function /TT,result 255.---
+[00:00:052] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:15:19.780] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:268] ---end function /TT,result 0.---
+[00:00:268] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:15:20.065] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:262] ---end function /TT,result 0.---
+[00:00:262] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:15:20.343] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x49fb9 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :303033.
+Aging Disk 3 success.
+[00:00:054] ---end function /TT,result 0.---
+[00:00:054] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:17:33.169] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:046] ---end function /vd,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:019] Time:[2024-11-11 14:17:53.582] 
+[00:00:019] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:019] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:059] ---end function /LOCATION,result 0.---
+[00:00:059] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:17:53.693] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x118103 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1147139.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:049] ---end function /TT,result 255.---
+[00:00:049] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:009] Time:[2024-11-11 14:17:53.752] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:259] ---end function /TT,result 0.---
+[00:00:259] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-11 14:17:54.022] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:269] ---end function /TT,result 0.---
+[00:00:269] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:008] Time:[2024-11-11 14:17:54.302] 
+[00:00:008] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:008] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:008] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x3d380 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :250752.
+Aging Disk 3 success.
+[00:00:048] ---end function /TT,result 0.---
+[00:00:048] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:58.299] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:093] ---end function /LOCATION,result 0.---
+[00:00:093] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:58.455] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x7ba89 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :506505.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:052] ---end function /TT,result 255.---
+[00:00:052] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:18:58.507] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:000] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:256] ---end function /TT,result 0.---
+[00:00:256] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:58.795] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:268] ---end function /TT,result 0.---
+[00:00:268] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:59.080] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x79a0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :31136.
+Aging Disk 3 success.
+[00:00:062] ---end function /TT,result 0.---
+[00:00:062] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:19:01.194] 
+[00:00:000] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:000] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:047] ---end function /LOCATION,result 0.---
+[00:00:047] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:01.319] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x43da8 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :277928.
+Error: Write pattern to hdd error(ErrCode:0x5).
+Error: Restore data to hdd error(ErrCode:0x5).
+Aging Disk 0 fail.
+[00:00:046] ---end function /TT,result 255.---
+[00:00:046] ===end tool:WHDD.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:01.381] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               D:             119.2GB        119.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging D: Volume Success.
+[00:00:250] ---end function /TT,result 0.---
+[00:00:250] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:01.647] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:268] ---end function /TT,result 0.---
+[00:00:268] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:01.931] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1ee739 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :2025273.
+Aging Disk 3 success.
+[00:00:046] ---end function /TT,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:57.085] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:062] ---end function /LOCATION,result 0.---
+[00:00:062] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:57.194] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1d273 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :119411.
+Aging Disk 0 success.
+[00:00:062] ---end function /TT,result 0.---
+[00:00:062] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:19:57.257] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:000] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x2e8c8 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :190664.
+Aging Disk 1 success.
+[00:00:047] ---end function /TT,result 0.---
+[00:00:047] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:57.320] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:264] ---end function /TT,result 0.---
+[00:00:264] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:57.600] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xd81bd 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :885181.
+Aging Disk 3 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:19:59.925] 
+[00:00:015] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:015] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:046] ---end function /LOCATION,result 0.---
+[00:00:046] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:20:00.035] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x2e67 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :11879.
+Aging Disk 0 success.
+[00:00:046] ---end function /TT,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:20:00.097] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x9e73 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :40563.
+Aging Disk 1 success.
+[00:00:046] ---end function /TT,result 0.---
+[00:00:046] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:20:00.160] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:266] ---end function /TT,result 0.---
+[00:00:266] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:20:00.442] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x7b098 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :503960.
+Aging Disk 3 success.
+[00:00:048] ---end function /TT,result 0.---
+[00:00:048] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:23:09.072] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:063] ---end function /vd,result 0.---
+[00:00:063] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:019] Time:[2024-11-11 14:23:28.294] 
+[00:00:019] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:019] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:094] ---end function /LOCATION,result 0.---
+[00:00:094] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 14:23:28.444] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x7b098 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :503960.
+Aging Disk 0 success.
+[00:00:059] ---end function /TT,result 0.---
+[00:00:059] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-11 14:23:28.514] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xa099d 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :657821.
+Aging Disk 1 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 14:23:28.584] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:270] ---end function /TT,result 0.---
+[00:00:270] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:021] Time:[2024-11-11 14:23:28.875] 
+[00:00:021] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:021] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:021] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1aafc0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1748928.
+Aging Disk 3 success.
+[00:00:060] ---end function /TT,result 0.---
+[00:00:060] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:31:23.729] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:051] ---end function /vd,result 0.---
+[00:00:051] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:010] Time:[2024-11-11 14:31:44.671] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:084] ---end function /LOCATION,result 0.---
+[00:00:084] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-11 14:31:44.821] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x17a333 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1549107.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:31:44.881] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1bb051 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1814609.
+Aging Disk 1 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-11 14:31:44.941] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:269] ---end function /TT,result 0.---
+[00:00:269] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:31:45.221] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x26c67 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :158823.
+Aging Disk 3 success.
+[00:00:066] ---end function /TT,result 0.---
+[00:00:066] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:54:55.444] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:01:269] ---end function /vd,result 0.---
+[00:01:269] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-11 14:55:18.509] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:090] ---end function /LOCATION,result 0.---
+[00:00:090] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-11 14:55:18.648] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xf0650 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :984656.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:55:18.709] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1245cc 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1197516.
+Aging Disk 1 success.
+[00:00:040] ---end function /TT,result 0.---
+[00:00:040] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:55:18.768] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:275] ---end function /TT,result 0.---
+[00:00:275] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:19.049] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x43b9 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :17337.
+Aging Disk 3 success.
+[00:00:062] ---end function /TT,result 0.---
+[00:00:062] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:30:18.604] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-12 07:31:04.192] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-12 07:31:35.481] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:060] ---end function /LOCATION,result 0.---
+[00:00:060] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-12 07:31:35.611] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xd6e08 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :880136.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 07:31:35.672] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1090f8 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1085688.
+Aging Disk 1 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 07:31:35.741] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x136911 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1272081.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 07:31:35.811] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:270] ---end function /TT,result 0.---
+[00:00:270] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:58:40.207] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:010] Time:[2024-11-11 14:59:34.495] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:056] ---end function /LOCATION,result 0.---
+[00:00:056] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:34.618] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xdb9e0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :899552.
+Aging Disk 0 success.
+[00:00:045] ---end function /TT,result 0.---
+[00:00:045] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-11 14:59:34.679] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xff5cc 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1045964.
+Aging Disk 1 success.
+[00:00:030] ---end function /TT,result 0.---
+[00:00:030] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:59:34.729] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x130ed0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1248976.
+Aging Disk 2 success.
+[00:00:035] ---end function /TT,result 0.---
+[00:00:035] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:59:34.783] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:000] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:252] ---end function /TT,result 0.---
+[00:00:252] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:51:03.841] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:009] Time:[2024-11-12 07:52:45.532] 
+[00:00:009] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:009] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:049] ---end function /LOCATION,result 0.---
+[00:00:049] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 07:52:45.652] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xfa3fd 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1025021.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-12 07:52:45.722] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x12f767 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1242983.
+Aging Disk 1 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-12 07:52:45.792] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x161dd1 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1449425.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 07:52:45.852] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:270] ---end function /TT,result 0.---
+[00:00:270] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:58:48.857] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:019] Time:[2024-11-12 07:59:08.843] 
+[00:00:019] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:019] ---start function /LOCATION.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:629] ---end function /LOCATION,result 0.---
+[00:00:629] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-12 07:59:09.543] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x161dd1 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1449425.
+Aging Disk 0 success.
+[00:00:299] ---end function /TT,result 0.---
+[00:00:299] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:031] Time:[2024-11-12 07:59:09.864] 
+[00:00:031] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:031] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:031] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0xc33d 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :49981.
+Aging Disk 1 success.
+[00:00:309] ---end function /TT,result 0.---
+[00:00:309] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:10.174] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x71283 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :463491.
+Aging Disk 2 success.
+[00:00:312] ---end function /TT,result 0.---
+[00:00:312] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:10.502] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:593] ---end function /TT,result 0.---
+[00:00:593] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:02:14.022] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-12 08:04:03.046] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-12 08:04:26.729] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:060] ---end function /LOCATION,result 0.---
+[00:00:060] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 08:04:26.849] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x193a03 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1653251.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:04:26.909] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1d6333 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1925939.
+Aging Disk 1 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:04:26.969] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x120 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :288.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:04:27.029] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:260] ---end function /TT,result 0.---
+[00:00:260] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:07:25.390] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-12 08:07:33.585] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:019] Time:[2024-11-12 08:07:53.699] 
+[00:00:019] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:019] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:059] ---end function /LOCATION,result 0.---
+[00:00:059] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:07:53.819] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x182667 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1582695.
+Aging Disk 0 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 08:07:53.889] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1c2b40 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1846080.
+Aging Disk 1 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 08:07:53.959] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1febf5 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :2092021.
+Aging Disk 2 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:07:54.019] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:290] ---end function /TT,result 0.---
+[00:00:290] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:27:22.853] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:019] Time:[2024-11-12 08:27:43.151] 
+[00:00:019] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:019] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:059] ---end function /LOCATION,result 0.---
+[00:00:059] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:27:43.271] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x32a68 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :207464.
+Aging Disk 0 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 08:27:43.341] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x48119 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :295193.
+Aging Disk 1 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-12 08:27:43.401] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x65d87 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :417159.
+Aging Disk 2 success.
+[00:00:053] ---end function /TT,result 0.---
+[00:00:053] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:43.466] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:250] ---end function /TT,result 0.---
+[00:00:250] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:28:55.407] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:010] Time:[2024-11-12 08:31:16.754] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:049] ---end function /LOCATION,result 0.---
+[00:00:049] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:31:16.884] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1bdf79 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1826681.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:008] Time:[2024-11-12 08:31:16.944] 
+[00:00:008] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:008] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:008] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1f9b48 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :2071368.
+Aging Disk 1 success.
+[00:00:048] ---end function /TT,result 0.---
+[00:00:048] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:31:17.004] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1145 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :4421.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:17.074] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:262] ---end function /TT,result 0.---
+[00:00:262] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:32:15.719] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:010] Time:[2024-11-12 08:34:16.380] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:051] ---end function /LOCATION,result 0.---
+[00:00:051] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 08:34:16.500] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x93698 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :603800.
+Aging Disk 0 success.
+[00:00:055] ---end function /TT,result 0.---
+[00:00:055] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:34:16.560] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xbc495 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :771221.
+Aging Disk 1 success.
+[00:00:040] ---end function /TT,result 0.---
+[00:00:040] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:011] Time:[2024-11-12 08:34:16.621] 
+[00:00:011] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:011] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:011] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xe3c60 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :932960.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 08:34:16.690] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:259] ---end function /TT,result 0.---
+[00:00:259] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:41:40.101] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-13 10:02:20.071] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:009] Time:[2024-11-13 10:02:40.092] 
+[00:00:009] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:009] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:049] ---end function /LOCATION,result 0.---
+[00:00:049] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-13 10:02:40.212] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x1eb03 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :125699.
+Aging Disk 0 success.
+[00:00:049] ---end function /TT,result 0.---
+[00:00:049] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:011] Time:[2024-11-13 10:02:40.274] 
+[00:00:011] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:011] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:011] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x32f33 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :208691.
+Aging Disk 1 success.
+[00:00:039] ---end function /TT,result 0.---
+[00:00:039] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-13 10:02:40.352] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x50807 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :329735.
+Aging Disk 2 success.
+[00:00:044] ---end function /TT,result 0.---
+[00:00:044] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-13 10:02:40.413] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:255] ---end function /TT,result 0.---
+[00:00:255] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:04:57.728] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:010] Time:[2024-11-13 10:06:22.218] 
+[00:00:010] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:010] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:049] ---end function /LOCATION,result 0.---
+[00:00:049] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-13 10:06:22.328] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x4329d 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :275101.
+Aging Disk 0 success.
+[00:00:039] ---end function /TT,result 0.---
+[00:00:039] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-13 10:06:22.388] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x5b654 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :374356.
+Aging Disk 1 success.
+[00:00:040] ---end function /TT,result 0.---
+[00:00:040] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-13 10:06:22.448] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x7a1b9 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :500153.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-13 10:06:22.508] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:259] ---end function /TT,result 0.---
+[00:00:259] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:08:35.958] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-13 10:09:15.184] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-13 10:09:34.972] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:049] ---end function /LOCATION,result 0.---
+[00:00:049] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-13 10:09:35.072] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x55c8 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :21960.
+Aging Disk 0 success.
+[00:00:040] ---end function /TT,result 0.---
+[00:00:040] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-13 10:09:35.131] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xdac7 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :56007.
+Aging Disk 1 success.
+[00:00:040] ---end function /TT,result 0.---
+[00:00:040] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-13 10:09:35.192] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x19c54 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :105556.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-13 10:09:35.251] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  3               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:249] ---end function /TT,result 0.---
+[00:00:249] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:18:40.538] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:009] Time:[2024-11-18 10:35:40.103] 
+[00:00:009] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:009] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:054] ---end function /LOCATION,result 0.---
+[00:00:054] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-18 10:35:40.213] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x218cc 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :137420.
+Aging Disk 0 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-18 10:35:40.273] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  1               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:260] ---end function /TT,result 0.---
+[00:00:260] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-18 10:35:40.542] 
+[00:00:010] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:010] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:010] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xb1227 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  2              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :725543.
+Aging Disk 2 success.
+[00:00:050] ---end function /TT,result 0.---
+[00:00:050] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-18 10:35:40.603] 
+[00:00:009] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:009] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xd77e0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :882656.
+Aging Disk 3 success.
+[00:00:039] ---end function /TT,result 0.---
+[00:00:039] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-18 22:00:25.919] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:04:06.265] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:04:47.217] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:23.119] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:28.041] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:37.969] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:06:33.485] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:019] ---end function /vd,result 0.---
+[00:00:019] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:07:17.292] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:04:31.154] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:39.496] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:48.144] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:58.195] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:08:19.309] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:09:17.929] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:020] Time:[2024-11-18 22:10:20.536] 
+[00:00:020] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:020] ---start function /LOCATION.---
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:051] ---end function /LOCATION,result 0.---
+[00:00:051] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-18 22:10:20.647] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0xe7cd0 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :949456.
+Aging Disk 0 success.
+[00:00:030] ---end function /TT,result 0.---
+[00:00:030] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-18 22:10:20.696] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x10c073 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1097843.
+Aging Disk 1 success.
+[00:00:029] ---end function /TT,result 0.---
+[00:00:029] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-18 22:10:20.746] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:249] ---end function /TT,result 0.---
+[00:00:249] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-18 22:10:21.017] 
+[00:00:020] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:020] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:020] ---start function /TT.---
+Enter function to get HD add info £¡
+
+offset is 0x867 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :2151.
+Aging Disk 3 success.
+[00:00:039] ---end function /TT,result 0.---
+[00:00:039] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-19 07:19:19.752] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:WHDD.EXE,result 0, error code 0.===
+[00:00:009] Time:[2024-11-19 07:20:10.772] 
+[00:00:009] ===start tool:WHDD (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:009] command line:WHDD /LOCATION -F TEMPHDDLOCSPD.ini -LAYOUT
+[00:00:009] ---start function /LOCATION.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+Save information to file TEMPHDDLOCSPD.ini success !
+[00:00:761] ---end function /LOCATION,result 0.---
+[00:00:761] ===end tool:WHDD,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-19 07:20:11.602] 
+[00:00:019] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:019] command line:WHDD.EXE /TT -D 0 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:019] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x1d0755 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1902421.
+Aging Disk 0 success.
+[00:00:351] ---end function /TT,result 0.---
+[00:00:351] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:20:11.964] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 1 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x3a673 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :239219.
+Aging Disk 1 success.
+[00:00:390] ---end function /TT,result 0.---
+[00:00:390] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:20:12.370] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 2 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Success.
+[00:00:562] ---end function /TT,result 0.---
+[00:00:562] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:20:12.949] 
+[00:00:015] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:015] command line:WHDD.EXE /TT -D 3 -dec -pf HDDPORT.ini -skip ASMT 2135
+[00:00:015] ---start function /TT.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+offset is 0x2b2b9 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :176825.
+Aging Disk 3 success.
+[00:00:359] ---end function /TT,result 0.---
+[00:00:359] ===end tool:WHDD.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-19 07:23:13.176] 
+[00:00:000] ===start tool:WHDD.EXE (tool Ver.1.63,tthlp Ver.1.09).===
+[00:00:000] command line:WHDD.EXE /vd HDD_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Enter function to get HD add info £¡
+
+[00:00:327] ---end function /vd,result 0.---
+[00:00:327] ===end tool:WHDD.EXE,result 0, error code 0.===

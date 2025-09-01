@@ -1,0 +1,58 @@
+   WPCI - ASUS(R) WPCI Utility Rev. 1.45 Build Jul 11 2019
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+                      Return Code = 0
+   WPCI - ASUS(R) WPCI Utility Rev. 1.45 Build Jul 11 2019
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+                      Return Code = 0
+*** Onboard device ID check PASS ***

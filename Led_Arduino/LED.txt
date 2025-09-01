@@ -1,0 +1,1 @@
+Pronto para comandos. Envie 'MEASURE', 'BUTTON', 'LED_A', 'LED_V' ou 'LED_AV'.

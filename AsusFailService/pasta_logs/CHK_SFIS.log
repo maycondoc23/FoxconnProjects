@@ -1,0 +1,4 @@
+Compare TEMPSFIS.INI & SC_SFIS.INI15/15Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(TEMPSFIS.INI)	file2(SC_SFIS.INI)
+... File Compare OK ...* Check SFIS PASS *

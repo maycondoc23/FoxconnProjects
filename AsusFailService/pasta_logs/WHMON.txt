@@ -1,0 +1,1616 @@
+[00:00:015] Time:[Fri Sep 13 21:56:32 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1355	100	8000	[PASS]	CPU Fan RPM
+06040073	840	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Fri Sep 13 21:56:34 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:000] ---start function /EXE.---
+[00:00:000] ---end function /EXE,result 0.---
+[00:00:000] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Fri Sep 13 21:56:52 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Fri Sep 13 21:56:53 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Fri Sep 13 21:56:53 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:042] ---end function /EXE,result 0.---
+[00:02:042] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Fri Sep 13 21:56:51 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:000] ---start function /EXE.---
+[00:08:081] ---end function /EXE,result 0.---
+[00:08:081] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Fri Sep 13 21:57:02 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	380	150	900	[PASS]	CPU Temperature
+06030014	310	150	600	[PASS]	MotherBoard Temperature
+06040013	3552	1500	8000	[PASS]	CPU Fan RPM
+06040073	1834	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1083	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:10:24 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1700	100	8000	[PASS]	CPU Fan RPM
+06040073	1043	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:009] Time:[Mon Nov 11 12:10:40 2024] 
+[00:00:009] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:009] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:009] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1542	100	8000	[PASS]	CPU Fan RPM
+06040073	940	100	8000	[PASS]	Chassis Fan RPM
+[00:00:331] ---end function /TEST,result 0.---
+[00:00:331] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:10:42 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:11:00 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:11:01 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:11:01 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:041] ---end function /EXE,result 0.---
+[00:02:041] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:11:01 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:088] ---end function /EXE,result 0.---
+[00:08:088] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:11:12 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	370	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	3619	1500	8000	[PASS]	CPU Fan RPM
+06040073	1839	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1048	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:23:39 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1802	100	8000	[PASS]	CPU Fan RPM
+06040073	1025	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:23:40 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:23:57 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:23:58 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:23:58 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:030] ---end function /EXE,result 0.---
+[00:02:030] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:23:58 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:108] ---end function /EXE,result 0.---
+[00:08:108] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:24:09 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	390	150	900	[PASS]	CPU Temperature
+06030014	260	150	600	[PASS]	MotherBoard Temperature
+06040013	3562	1500	8000	[PASS]	CPU Fan RPM
+06040073	1904	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1012	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5000	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:343] ---end function /TEST,result 0.---
+[00:00:343] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:30:24 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1776	100	8000	[PASS]	CPU Fan RPM
+06040073	1078	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:30:26 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:30:44 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:30:45 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:30:45 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:031] ---end function /EXE,result 0.---
+[00:02:031] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:30:57 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:078] ---end function /EXE,result 0.---
+[00:08:078] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:31:08 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	420	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	3543	1500	8000	[PASS]	CPU Fan RPM
+06040073	1890	1500	8000	[PASS]	Chassis Fan RPM
+06020011	959	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:34:55 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1807	100	8000	[PASS]	CPU Fan RPM
+06040073	1055	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:34:58 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:010] Time:[Mon Nov 11 12:35:15 2024] 
+[00:00:010] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:010] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:010] ---start function /EXE.---
+[00:00:010] ---end function /EXE,result 0.---
+[00:00:020] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:35:16 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:35:16 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:030] ---end function /EXE,result 0.---
+[00:02:030] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:35:18 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:078] ---end function /EXE,result 0.---
+[00:08:078] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:35:29 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	410	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	3452	1500	8000	[PASS]	CPU Fan RPM
+06040073	1834	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1101	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:44:40 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1804	100	8000	[PASS]	CPU Fan RPM
+06040073	1120	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 11 12:45:02 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1607	100	8000	[PASS]	CPU Fan RPM
+06040073	991	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:45:06 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1601	100	8000	[PASS]	CPU Fan RPM
+06040073	973	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:45:08 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:005] Time:[Mon Nov 11 12:45:26 2024] 
+[00:00:005] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:005] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:005] ---start function /EXE.---
+[00:00:005] ---end function /EXE,result 0.---
+[00:00:005] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:45:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:45:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:029] ---end function /EXE,result 0.---
+[00:02:029] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 11 12:45:29 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:000] ---start function /EXE.---
+[00:08:059] ---end function /EXE,result 0.---
+[00:08:059] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 12:45:39 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	400	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	3600	1500	8000	[PASS]	CPU Fan RPM
+06040073	1942	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1003	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5000	4625	5375	[PASS]	+5V Voltage
+06020063	3328	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:14:06 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1666	100	8000	[PASS]	CPU Fan RPM
+06040073	964	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:14:07 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:14:26 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:14:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:14:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:032] ---end function /EXE,result 0.---
+[00:02:032] ===end tool:WHMON.EXE,result 0.===
+[00:00:010] Time:[Mon Nov 11 14:14:39 2024] 
+[00:00:010] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:010] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:010] ---start function /EXE.---
+[00:08:091] ---end function /EXE,result 0.---
+[00:08:091] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:14:50 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	370	150	900	[PASS]	CPU Temperature
+06030014	250	150	600	[PASS]	MotherBoard Temperature
+06040013	3366	1500	8000	[PASS]	CPU Fan RPM
+06040073	1812	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1119	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:17:32 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1836	100	8000	[PASS]	CPU Fan RPM
+06040073	1052	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:17:34 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 11 14:17:51 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:17:52 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:17:52 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:030] ---end function /EXE,result 0.---
+[00:02:030] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:17:53 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:089] ---end function /EXE,result 0.---
+[00:08:089] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:18:04 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	400	150	900	[PASS]	CPU Temperature
+06030014	270	150	600	[PASS]	MotherBoard Temperature
+06040013	3515	1500	8000	[PASS]	CPU Fan RPM
+06040073	1928	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1003	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:08 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	3479	100	8000	[PASS]	CPU Fan RPM
+06040073	1939	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:10 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:26 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:027] ---end function /EXE,result 0.---
+[00:02:027] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:27 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:073] ---end function /EXE,result 0.---
+[00:08:073] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:23:38 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	370	150	900	[PASS]	CPU Temperature
+06030014	260	150	600	[PASS]	MotherBoard Temperature
+06040013	3409	1500	8000	[PASS]	CPU Fan RPM
+06040073	1877	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1110	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:23 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1769	100	8000	[PASS]	CPU Fan RPM
+06040073	1048	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:24 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:42 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:43 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:43 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:037] ---end function /EXE,result 0.---
+[00:02:037] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:43 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:075] ---end function /EXE,result 0.---
+[00:08:075] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:31:54 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	410	150	900	[PASS]	CPU Temperature
+06030014	280	150	600	[PASS]	MotherBoard Temperature
+06040013	3470	1500	8000	[PASS]	CPU Fan RPM
+06040073	1936	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1057	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:54:55 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1979	100	8000	[PASS]	CPU Fan RPM
+06040073	1115	100	8000	[PASS]	Chassis Fan RPM
+[00:00:305] ---end function /TEST,result 0.---
+[00:00:305] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:54:57 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:010] Time:[Mon Nov 11 14:55:16 2024] 
+[00:00:010] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:010] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:010] ---start function /EXE.---
+[00:00:020] ---end function /EXE,result 0.---
+[00:00:020] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:55:17 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:55:17 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:026] ---end function /EXE,result 0.---
+[00:02:026] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:55:19 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:108] ---end function /EXE,result 0.---
+[00:08:108] ===end tool:WHMON.EXE,result 0.===
+[00:00:010] Time:[Mon Nov 11 14:55:30 2024] 
+[00:00:010] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:010] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:010] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	420	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	3426	1500	8000	[PASS]	CPU Fan RPM
+06040073	1867	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1119	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	5040	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:324] ---end function /TEST,result 0.---
+[00:00:324] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:30:18 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1260	100	8000	[PASS]	CPU Fan RPM
+06040073	2250	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:31:03 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1168	100	8000	[PASS]	CPU Fan RPM
+06040073	2112	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:31:05 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:031] ---end function /EXE,result 0.---
+[00:00:031] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:31:24 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:31:25 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:31:24 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:092] ---end function /EXE,result 0.---
+[00:08:092] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:31:35 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	380	150	900	[PASS]	CPU Temperature
+06030014	270	150	600	[PASS]	MotherBoard Temperature
+06040013	1985	1500	8000	[PASS]	CPU Fan RPM
+06040073	4891	1500	8000	[PASS]	Chassis Fan RPM
+06020011	995	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4880	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:336] ---end function /TEST,result 0.---
+[00:00:336] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:58:39 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1255	100	8000	[PASS]	CPU Fan RPM
+06040073	2315	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:58:41 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:59:32 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:59:33 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:59:33 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:033] ---end function /EXE,result 0.---
+[00:02:033] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 11 14:59:33 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:000] ---start function /EXE.---
+[00:08:049] ---end function /EXE,result 0.---
+[00:08:049] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 11 14:59:43 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	370	150	900	[PASS]	CPU Temperature
+06030014	260	150	600	[PASS]	MotherBoard Temperature
+06040013	2000	1500	8000	[PASS]	CPU Fan RPM
+06040073	4909	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1048	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4840	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:51:03 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1360	100	8000	[PASS]	CPU Fan RPM
+06040073	2980	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:51:05 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:52:43 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:52:44 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:52:44 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:033] ---end function /EXE,result 0.---
+[00:02:033] ===end tool:WHMON.EXE,result 0.===
+[00:00:020] Time:[Tue Nov 12 07:52:45 2024] 
+[00:00:020] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:020] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:020] ---start function /EXE.---
+[00:08:101] ---end function /EXE,result 0.---
+[00:08:101] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Tue Nov 12 07:52:56 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	400	150	900	[PASS]	CPU Temperature
+06030014	300	150	600	[PASS]	MotherBoard Temperature
+06040013	1994	1500	8000	[PASS]	CPU Fan RPM
+06040073	5018	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1030	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4840	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:58:48 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	2002	100	8000	[PASS]	CPU Fan RPM
+06040073	5357	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:58:50 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:59:07 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:59:08 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:59:08 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:031] ---end function /EXE,result 0.---
+[00:02:031] ===end tool:WHMON.EXE,result 0.===
+[00:00:020] Time:[Tue Nov 12 07:59:06 2024] 
+[00:00:020] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:020] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:020] ---start function /EXE.---
+[00:08:095] ---end function /EXE,result 0.---
+[00:08:095] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 07:59:17 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	400	150	900	[PASS]	CPU Temperature
+06030014	300	150	600	[PASS]	MotherBoard Temperature
+06040013	1997	1500	8000	[PASS]	CPU Fan RPM
+06040073	5378	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1128	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4840	4625	5375	[PASS]	+5V Voltage
+06020063	3328	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:343] ---end function /TEST,result 0.---
+[00:00:343] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Tue Nov 12 08:02:13 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1397	100	8000	[PASS]	CPU Fan RPM
+06040073	3089	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:04:02 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1337	100	8000	[PASS]	CPU Fan RPM
+06040073	2896	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:04:04 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:009] Time:[Tue Nov 12 08:04:25 2024] 
+[00:00:009] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:009] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:009] ---start function /EXE.---
+[00:00:009] ---end function /EXE,result 0.---
+[00:00:009] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:04:26 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:04:26 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:018] ---end function /EXE,result 0.---
+[00:02:018] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:04:28 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:101] ---end function /EXE,result 0.---
+[00:08:101] ===end tool:WHMON.EXE,result 0.===
+[00:00:014] Time:[Tue Nov 12 08:04:38 2024] 
+[00:00:014] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:014] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:014] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	430	150	900	[PASS]	CPU Temperature
+06030014	300	150	600	[PASS]	MotherBoard Temperature
+06040013	1994	1500	8000	[PASS]	CPU Fan RPM
+06040073	5000	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1048	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4880	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:318] ---end function /TEST,result 0.---
+[00:00:318] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:07:18 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1376	100	8000	[PASS]	CPU Fan RPM
+06040073	0	100	8000	[FAIL]	Chassis Fan RPM
+[00:06:371] ---end function /TEST,result 255.---
+[00:06:371] ===end tool:WHMON2.EXE,result 255.===
+[00:00:015] Time:[Tue Nov 12 08:07:33 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1301	100	8000	[PASS]	CPU Fan RPM
+06040073	2721	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Tue Nov 12 08:07:34 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:000] ---start function /EXE.---
+[00:00:000] ---end function /EXE,result 0.---
+[00:00:000] ===end tool:WHMON.EXE,result 0.===
+[00:00:009] Time:[Tue Nov 12 08:07:51 2024] 
+[00:00:009] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:009] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:009] ---start function /EXE.---
+[00:00:009] ---end function /EXE,result 0.---
+[00:00:009] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:07:52 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:07:53 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:031] ---end function /EXE,result 0.---
+[00:02:031] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:07:55 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:082] ---end function /EXE,result 0.---
+[00:08:082] ===end tool:WHMON.EXE,result 0.===
+[00:00:011] Time:[Tue Nov 12 08:08:06 2024] 
+[00:00:011] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:011] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:011] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	420	150	900	[PASS]	CPU Temperature
+06030014	320	150	600	[PASS]	MotherBoard Temperature
+06040013	1985	1500	8000	[PASS]	CPU Fan RPM
+06040073	5056	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1039	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4880	4625	5375	[PASS]	+5V Voltage
+06020063	3360	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:322] ---end function /TEST,result 0.---
+[00:00:322] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:27:22 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1268	100	8000	[PASS]	CPU Fan RPM
+06040073	2423	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:27:24 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:27:41 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:27:42 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:27:42 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:022] ---end function /EXE,result 0.---
+[00:02:022] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:27:54 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:091] ---end function /EXE,result 0.---
+[00:08:091] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Tue Nov 12 08:28:05 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	380	150	900	[PASS]	CPU Temperature
+06030014	260	150	600	[PASS]	MotherBoard Temperature
+06040013	1973	1500	8000	[PASS]	CPU Fan RPM
+06040073	4804	1500	8000	[PASS]	Chassis Fan RPM
+06020011	986	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4840	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:312] ---end function /TEST,result 0.---
+[00:00:312] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:28:55 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1350	100	8000	[PASS]	CPU Fan RPM
+06040073	2960	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:28:56 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:31:14 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:31:15 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:31:15 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:024] ---end function /EXE,result 0.---
+[00:02:024] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:31:14 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:086] ---end function /EXE,result 0.---
+[00:08:086] ===end tool:WHMON.EXE,result 0.===
+[00:00:031] Time:[Tue Nov 12 08:31:25 2024] 
+[00:00:031] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:031] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:031] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	450	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	1979	1500	8000	[PASS]	CPU Fan RPM
+06040073	5056	1500	8000	[PASS]	Chassis Fan RPM
+06020011	986	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4800	4625	5375	[PASS]	+5V Voltage
+06020063	3328	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:343] ---end function /TEST,result 0.---
+[00:00:343] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:32:15 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1370	100	8000	[PASS]	CPU Fan RPM
+06040073	2941	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:33:56 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:34:14 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:34:15 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:34:15 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:030] ---end function /EXE,result 0.---
+[00:02:030] ===end tool:WHMON.EXE,result 0.===
+[00:00:010] Time:[Tue Nov 12 08:34:16 2024] 
+[00:00:010] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:010] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:010] ---start function /EXE.---
+[00:08:082] ---end function /EXE,result 0.---
+[00:08:082] ===end tool:WHMON.EXE,result 0.===
+[00:00:009] Time:[Tue Nov 12 08:34:27 2024] 
+[00:00:009] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:009] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:009] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	400	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	1985	1500	8000	[PASS]	CPU Fan RPM
+06040073	5113	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1119	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	4880	4625	5375	[PASS]	+5V Voltage
+06020063	3344	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:323] ---end function /TEST,result 0.---
+[00:00:323] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 12 08:41:39 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	2177	100	8000	[PASS]	CPU Fan RPM
+06040073	3668	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:19 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1914	100	8000	[PASS]	CPU Fan RPM
+06040073	3013	100	8000	[PASS]	Chassis Fan RPM
+[00:00:343] ---end function /TEST,result 0.---
+[00:00:343] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:21 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:38 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:39 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:39 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:032] ---end function /EXE,result 0.---
+[00:02:032] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:37 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:093] ---end function /EXE,result 0.---
+[00:08:093] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:02:48 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	600	150	900	[PASS]	CPU Temperature
+06030014	260	150	600	[PASS]	MotherBoard Temperature
+06040013	3515	1500	8000	[PASS]	CPU Fan RPM
+06040073	4838	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1110	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12096	11100	12900	[PASS]	+12V Voltage
+06020062	4760	4625	5375	[PASS]	+5V Voltage
+06020063	3296	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:355] ---end function /TEST,result 0.---
+[00:00:355] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:04:57 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	2184	100	8000	[PASS]	CPU Fan RPM
+06040073	3629	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Wed Nov 13 10:05:19 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:000] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:06:20 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:06:21 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Wed Nov 13 10:06:21 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE beep.DAT
+[00:00:000] ---start function /EXE.---
+[00:02:015] ---end function /EXE,result 0.---
+[00:02:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:06:21 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:094] ---end function /EXE,result 0.---
+[00:08:094] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:06:32 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	520	150	900	[PASS]	CPU Temperature
+06030014	280	150	600	[PASS]	MotherBoard Temperature
+06040013	3571	1500	8000	[PASS]	CPU Fan RPM
+06040073	4856	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1083	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12096	11100	12900	[PASS]	+12V Voltage
+06020062	4800	4625	5375	[PASS]	+5V Voltage
+06020063	3312	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:08:35 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	2125	100	8000	[PASS]	CPU Fan RPM
+06040073	0	100	8000	[FAIL]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 255.---
+[00:00:328] ===end tool:WHMON2.EXE,result 255.===
+[00:00:015] Time:[Wed Nov 13 10:09:14 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1648	100	8000	[PASS]	CPU Fan RPM
+06040073	2303	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:09:16 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Wed Nov 13 10:09:33 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:000] ---start function /EXE.---
+[00:00:000] ---end function /EXE,result 0.---
+[00:00:000] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:09:34 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:031] Time:[Wed Nov 13 10:09:34 2024] 
+[00:00:031] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:031] command line:WHMON.EXE /EXE beep.DAT
+[00:00:031] ---start function /EXE.---
+[00:02:034] ---end function /EXE,result 0.---
+[00:02:034] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:09:34 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:072] ---end function /EXE,result 0.---
+[00:08:072] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Wed Nov 13 10:09:45 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	550	150	900	[PASS]	CPU Temperature
+06030014	270	150	600	[PASS]	MotherBoard Temperature
+06040013	3562	1500	8000	[PASS]	CPU Fan RPM
+06040073	4703	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1074	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12096	11100	12900	[PASS]	+12V Voltage
+06020062	4800	4625	5375	[PASS]	+5V Voltage
+06020063	3296	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:312] ---end function /TEST,result 0.---
+[00:00:312] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Wed Nov 13 10:18:39 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1890	100	8000	[PASS]	CPU Fan RPM
+06040073	2800	100	8000	[PASS]	Chassis Fan RPM
+[00:01:124] ---end function /TEST,result 0.---
+[00:01:124] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 10:35:20 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 10:35:38 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 10:35:39 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 10:35:39 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:020] ---end function /EXE,result 0.---
+[00:02:020] ===end tool:WHMON.EXE,result 0.===
+[00:00:010] Time:[Mon Nov 18 10:35:51 2024] 
+[00:00:010] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:010] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:010] ---start function /EXE.---
+[00:08:075] ---end function /EXE,result 0.---
+[00:08:075] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 18 10:36:02 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	430	150	900	[PASS]	CPU Temperature
+06030014	270	150	600	[PASS]	MotherBoard Temperature
+06040013	3534	1500	8000	[PASS]	CPU Fan RPM
+06040073	4736	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1030	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12000	11100	12900	[PASS]	+12V Voltage
+06020062	4760	4625	5375	[PASS]	+5V Voltage
+06020063	3312	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:312] ---end function /TEST,result 0.---
+[00:00:312] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 18 22:00:24 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1418	100	8000	[PASS]	CPU Fan RPM
+06040073	0	100	8000	[FAIL]	Chassis Fan RPM
+[00:01:124] ---end function /TEST,result 255.---
+[00:01:124] ===end tool:WHMON2.EXE,result 255.===
+[00:00:000] Time:[Mon Nov 18 22:04:05 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1503	100	8000	[PASS]	CPU Fan RPM
+06040073	1654	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:04:46 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1295	100	8000	[PASS]	CPU Fan RPM
+06040073	1331	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:05:22 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1294	100	8000	[PASS]	CPU Fan RPM
+06040073	1383	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 18 22:05:27 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1290	100	8000	[PASS]	CPU Fan RPM
+06040073	1320	100	8000	[PASS]	Chassis Fan RPM
+[00:00:312] ---end function /TEST,result 0.---
+[00:00:312] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:05:37 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1283	100	8000	[PASS]	CPU Fan RPM
+06040073	1378	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:06:33 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1306	100	8000	[PASS]	CPU Fan RPM
+06040073	1410	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:07:16 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1300	100	8000	[PASS]	CPU Fan RPM
+06040073	1413	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:04:30 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1569	100	8000	[PASS]	CPU Fan RPM
+06040073	1901	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 18 22:05:39 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1359	100	8000	[PASS]	CPU Fan RPM
+06040073	1490	100	8000	[PASS]	Chassis Fan RPM
+[00:00:312] ---end function /TEST,result 0.---
+[00:00:312] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:05:47 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1347	100	8000	[PASS]	CPU Fan RPM
+06040073	1462	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:05:57 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1365	100	8000	[PASS]	CPU Fan RPM
+06040073	1477	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:08:18 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1317	100	8000	[PASS]	CPU Fan RPM
+06040073	1427	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 18 22:09:17 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1356	100	8000	[PASS]	CPU Fan RPM
+06040073	1475	100	8000	[PASS]	Chassis Fan RPM
+[00:00:312] ---end function /TEST,result 0.---
+[00:00:312] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:09:19 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:09:40 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:079] ---end function /EXE,result 0.---
+[00:08:079] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:09:51 2024] 
+[00:00:015] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:015] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	540	150	900	[PASS]	CPU Temperature
+06030014	300	150	600	[PASS]	MotherBoard Temperature
+06040013	1973	1500	8000	[PASS]	CPU Fan RPM
+06040073	3341	1500	8000	[PASS]	Chassis Fan RPM
+06020011	968	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	5000	4625	5375	[PASS]	+5V Voltage
+06020063	3328	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:000] Time:[Mon Nov 18 22:10:09 2024] 
+[00:00:000] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Mon Nov 18 22:10:10 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Tue Nov 19 07:19:19 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	1979	100	8000	[PASS]	CPU Fan RPM
+06040073	3325	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 19 07:19:20 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE DisPowerBtn.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 19 07:19:36 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE QFANTEST.dat
+[00:00:015] ---start function /EXE.---
+[00:08:087] ---end function /EXE,result 0.---
+[00:08:087] ===end tool:WHMON.EXE,result 0.===
+[00:00:031] Time:[Tue Nov 19 07:19:47 2024] 
+[00:00:031] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:031] command line:WHMON2.EXE /TEST -CONFIGFILE WHMONconfig.INI -record note_0.xml
+[00:00:031] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06030012	530	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	2002	1500	8000	[PASS]	CPU Fan RPM
+06040073	3325	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1110	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	5000	4625	5375	[PASS]	+5V Voltage
+06020063	3328	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+[00:00:375] ---end function /TEST,result 0.---
+[00:00:375] ===end tool:WHMON2.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 19 07:20:08 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonHigh.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 19 07:20:09 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE CHeckResetButtonLow.DAT
+[00:00:015] ---start function /EXE.---
+[00:00:015] ---end function /EXE,result 0.---
+[00:00:015] ===end tool:WHMON.EXE,result 0.===
+[00:00:015] Time:[Tue Nov 19 07:20:09 2024] 
+[00:00:015] ===start tool:WHMON.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:015] command line:WHMON.EXE /EXE beep.DAT
+[00:00:015] ---start function /EXE.---
+[00:02:026] ---end function /EXE,result 0.---
+[00:02:026] ===end tool:WHMON.EXE,result 0.===
+[00:00:000] Time:[Tue Nov 19 07:23:12 2024] 
+[00:00:000] ===start tool:WHMON2.EXE (tool Ver.3.03,tthlp Ver.1.09).===
+[00:00:000] command line:WHMON2.EXE /TEST -CONFIGFILE FAN_SCAN_1.INI -record note_0.xml
+[00:00:000] ---start function /TEST.---
+ItemID		Current    Low          High         Result       ItemName
+06040013	2005	100	8000	[PASS]	CPU Fan RPM
+06040073	3452	100	8000	[PASS]	Chassis Fan RPM
+[00:00:328] ---end function /TEST,result 0.---
+[00:00:328] ===end tool:WHMON2.EXE,result 0.===

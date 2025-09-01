@@ -1,0 +1,53 @@
+{
+    "capacitor2": {
+        "classe": "capacitor",
+        "posicoes": [
+            [
+                4255,
+                1122
+            ]
+        ],
+        "tamanho": [
+            230,
+            235
+        ],
+        "Compare": true,
+        "area": 200,
+        "compare_mode": 1,
+        "pads": 2
+    },
+    "capacitor4": {
+        "classe": "capacitor",
+        "posicoes": [
+            [
+                3199,
+                1540
+            ]
+        ],
+        "tamanho": [
+            174,
+            174
+        ],
+        "Compare": true,
+        "area": 200,
+        "compare_mode": 1,
+        "pads": 4
+    },
+    "capacitor5": {
+        "classe": "capacitor",
+        "posicoes": [
+            [
+                3836,
+                1103
+            ]
+        ],
+        "tamanho": [
+            218,
+            225
+        ],
+        "Compare": true,
+        "area": 200,
+        "compare_mode": 1,
+        "pads": 4
+    }
+}

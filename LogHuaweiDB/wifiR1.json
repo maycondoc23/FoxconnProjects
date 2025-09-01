@@ -1,0 +1,89 @@
+{
+    "code": 0,
+    "value": {
+        "total": 1,
+        "statistics": {
+            "fail": 0,
+            "success": 1,
+            "complete": 1
+        },
+        "data": [
+            {
+                "uploadMode": 1,
+                "GuidRound": "68A3B7B6-5D98-49D8-823E-52536A65997D",
+                "SubStation": "1",
+                "AteName": "ST-Addax4996A5723",
+                "WorkOrder": "000095011124-1",
+                "OprId": "cmdlateuser1",
+                "WorkProcedure": 1,
+                "TestMode": 0,
+                "ProductLine": "Optical Access Network",
+                "Product": "",
+                "EquipName": "SmarXU2100-ONT-FT",
+                "UUTName": "0302065845",
+                "UUTVersion": "1.0.14",
+                "EquipmentVersion": "1.0.14",
+                "EquipmentFlag": "---AteName=ST-Addax4996A5723---",
+                "EquipmentDesc": "2.5.1",
+                "CMName": "CMRY",
+                "MachineNo": "",
+                "NESn": "",
+                "CabinetSn": "",
+                "FrameSn": "",
+                "BoardSn": "",
+                "BoardCode": "0302065845",
+                "PositionSn": "1-1-3",
+                "FatherItemSn": "",
+                "R1Guid": "C9C99611-5E0D-433E-A315-9810377B3E7A",
+                "SN": "RY2520061019",
+                "FromTime": "2025-03-06T10:25:01.000",
+                "ToTime": "2025-03-06T10:26:36.000",
+                "Result": 0,
+                "BoardType": 0,
+                "Extents": [
+                    {
+                        "ExtenseName": "checkAteName",
+                        "ExtenseValue": "FT-MP1"
+                    },
+                    {
+                        "ExtenseName": "isdebug",
+                        "ExtenseValue": "0"
+                    },
+                    {
+                        "ExtenseName": "opr-role",
+                        "ExtenseValue": "tester"
+                    },
+                    {
+                        "ExtenseName": "localversion",
+                        "ExtenseValue": "3.3.2.9"
+                    },
+                    {
+                        "ExtenseName": "wpname",
+                        "ExtenseValue": "FT2"
+                    },
+                    {
+                        "ExtenseName": "Reserved3",
+                        "ExtenseValue": "[R2Cnt=29][R3Cnt=686][TimeOut=90]"
+                    },
+                    {
+                        "ExtenseName": "wsname",
+                        "ExtenseValue": "MP1"
+                    },
+                    {
+                        "ExtenseName": "Reserved2",
+                        "ExtenseValue": "[DataType=Normal]"
+                    }
+                ],
+                "TestType": 0,
+                "HardBinId": 0,
+                "HardBinName": "",
+                "SoftBinId": 0,
+                "SoftBinName": "",
+                "FixtureSn": "",
+                "WaferCoordinateX": 0,
+                "WaferCoordinateY": 0,
+                "WsType": "TestV2"
+            }
+        ]
+    }
+}

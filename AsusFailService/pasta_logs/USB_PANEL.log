@@ -1,0 +1,95 @@
+Customer 1.01 
+                ASUSTeK COMPUTER INC. WUSBExt Utility  Rev.1.33 Build May 20 2021
+        *********  Copyright(C) ASUSTeK COMPUTER INC. All Rights Reserved.  **********
+[2024-11-19 07:20:05 541,00000f5c,main:1125,D] E.
+[2024-11-19 07:20:05 541,00000f5c,main:1127,D] cmdline=WUSBExt.exe /t -pwr 1 -debug 
+[2024-11-19 07:20:05 541,00000f5c,main:1128,D] Current Platform :Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H610M-CS D4,Sn=240537335600661
+Current Platform :Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H610M-CS D4,Sn=240537335600661
+[2024-11-19 07:20:05 541,00000f5c,check_platform:1032,D] svid=1043,vendor=ASUSTeK COMPUTER INC.,product=PRIME H610M-CS D4
+[2024-11-19 07:20:05 545,00000f5c,Test:658,D] E.
+[2024-11-19 07:20:05 545,00000f5c,LoadConfig:212,D]  Loading Config From WUSBExt.ini
+[2024-11-19 07:20:05 557,00000f5c,NewUpdateFw:541,D]  E
+[2024-11-19 07:20:05 557,00000f5c,UpdateTargetDeviceList:197,D]  bcdTarget=100,mid=2,sid=ff,tszFWPath=FW_HEADER_0328.BIX.
+[2024-11-19 07:20:05 569,00000f5c,UpdateTargetDeviceList:220,D] found device count=1
+[2024-11-19 07:20:05 671,00000f5c,UpdateTargetDeviceList:238,D]  found device,bus=2,path=6,bcd=516,mid=2,sid=ff
+[2024-11-19 07:20:05 781,00000f5c,NewUpdateFw:557,D]  X rc=0
+[2024-11-19 07:20:06 803,00000f5c,Test:735,D] before update fw dc=7,current dc=7
+[2024-11-19 07:20:07 819,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=3,vid=1043,pid=808,bcd=305,speed=3,retry=0
+[2024-11-19 07:20:07 819,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=3,vid=1043,pid=808,bcd=305,speed=3,retry=1
+[2024-11-19 07:20:07 820,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=3,vid=1043,pid=808,bcd=305,speed=3,retry=2
+[2024-11-19 07:20:07 820,00000f5c,GetMotherIdAndSubId:141,D]   send prepare mid is failed,bus=2,path=3,bcd=305
+[2024-11-19 07:20:07 820,00000f5c,Test:755,E]  get mid/sid fail,bus=2,path=3,bcd=305
+[2024-11-19 07:20:07 820,00000f5c,Test:758,D]  current device found bus=2,path=3,bcd=305,mid=0,sid=0
+[2024-11-19 07:20:07 820,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=4,vid=1043,pid=808,bcd=303,speed=3,retry=0
+[2024-11-19 07:20:07 821,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=4,vid=1043,pid=808,bcd=303,speed=3,retry=1
+[2024-11-19 07:20:07 821,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=4,vid=1043,pid=808,bcd=303,speed=3,retry=2
+[2024-11-19 07:20:07 821,00000f5c,GetMotherIdAndSubId:141,D]   send prepare mid is failed,bus=2,path=4,bcd=303
+[2024-11-19 07:20:07 821,00000f5c,Test:755,E]  get mid/sid fail,bus=2,path=4,bcd=303
+[2024-11-19 07:20:07 821,00000f5c,Test:758,D]  current device found bus=2,path=4,bcd=303,mid=0,sid=0
+[2024-11-19 07:20:07 932,00000f5c,Test:758,D]  current device found bus=2,path=6,bcd=100,mid=2,sid=ff
+[2024-11-19 07:20:07 933,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=7,vid=1043,pid=808,bcd=303,speed=3,retry=0
+[2024-11-19 07:20:07 934,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=7,vid=1043,pid=808,bcd=303,speed=3,retry=1
+[2024-11-19 07:20:07 934,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=7,vid=1043,pid=808,bcd=303,speed=3,retry=2
+[2024-11-19 07:20:07 934,00000f5c,GetMotherIdAndSubId:141,D]   send prepare mid is failed,bus=2,path=7,bcd=303
+[2024-11-19 07:20:07 934,00000f5c,Test:755,E]  get mid/sid fail,bus=2,path=7,bcd=303
+[2024-11-19 07:20:07 934,00000f5c,Test:758,D]  current device found bus=2,path=7,bcd=303,mid=0,sid=0
+[2024-11-19 07:20:07 935,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=8,vid=1043,pid=808,bcd=303,speed=3,retry=0
+[2024-11-19 07:20:07 936,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=8,vid=1043,pid=808,bcd=303,speed=3,retry=1
+[2024-11-19 07:20:07 937,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=8,vid=1043,pid=808,bcd=303,speed=3,retry=2
+[2024-11-19 07:20:07 947,00000f5c,GetMotherIdAndSubId:141,D]   send prepare mid is failed,bus=2,path=8,bcd=303
+[2024-11-19 07:20:07 947,00000f5c,Test:755,E]  get mid/sid fail,bus=2,path=8,bcd=303
+[2024-11-19 07:20:07 948,00000f5c,Test:758,D]  current device found bus=2,path=8,bcd=303,mid=0,sid=0
+[2024-11-19 07:20:07 948,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=9,vid=1043,pid=808,bcd=305,speed=3,retry=0
+[2024-11-19 07:20:07 948,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=9,vid=1043,pid=808,bcd=305,speed=3,retry=1
+[2024-11-19 07:20:07 948,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=9,vid=1043,pid=808,bcd=305,speed=3,retry=2
+[2024-11-19 07:20:07 948,00000f5c,GetMotherIdAndSubId:141,D]   send prepare mid is failed,bus=2,path=9,bcd=305
+[2024-11-19 07:20:07 948,00000f5c,Test:755,E]  get mid/sid fail,bus=2,path=9,bcd=305
+[2024-11-19 07:20:07 948,00000f5c,Test:758,D]  current device found bus=2,path=9,bcd=305,mid=0,sid=0
+[2024-11-19 07:20:07 949,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=e,vid=1043,pid=808,bcd=305,speed=3,retry=0
+[2024-11-19 07:20:07 949,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=e,vid=1043,pid=808,bcd=305,speed=3,retry=1
+[2024-11-19 07:20:07 949,00000f5c,control_transfer_with_retry:222,D] failed to transfer control data,bus=2,path=e,vid=1043,pid=808,bcd=305,speed=3,retry=2
+[2024-11-19 07:20:07 949,00000f5c,GetMotherIdAndSubId:141,D]   send prepare mid is failed,bus=2,path=e,bcd=305
+[2024-11-19 07:20:07 949,00000f5c,Test:755,E]  get mid/sid fail,bus=2,path=e,bcd=305
+[2024-11-19 07:20:07 949,00000f5c,Test:758,D]  current device found bus=2,path=e,bcd=305,mid=0,sid=0
+[2024-11-19 07:20:07 989,00001ba4,TestPowerHeader:326,D]  config device count=1,actual device count=1
+[2024-11-19 07:20:07 989,00001ba4,do_test_reset_buttom:63,D] checking reset high state.
+[2024-11-19 07:20:08 103,00001ba4,do_test_reset_buttom:72,D]  READ_PB_OE. value=0
+[2024-11-19 07:20:08 103,00001ba4,do_test_reset_buttom:76,D]  READ_PB. value=ed
+[2024-11-19 07:20:09 119,00001ba4,do_test_reset_buttom:80,D] checking reset low state.
+[2024-11-19 07:20:09 165,00001ba4,do_test_reset_buttom:94,D]  X rc=0.
+[2024-11-19 07:20:09 192,00001ba4,do_test_beep:298,D]  X rc=0.found_high_signal=1,found_low_signal=1
+[2024-11-19 07:20:09 192,00001ba4,do_test_power_led:107,D]  READ_PB_OE. value=20
+[2024-11-19 07:20:09 192,00001ba4,do_test_power_led:111,D]  READ_DT. value=ed
+[2024-11-19 07:20:09 192,00001ba4,do_test_power_led:114,D]  X rc=0.
+[2024-11-19 07:20:10 207,00001ba4,do_test_hdd_led:179,D]  X rc=0.found_high_signal=1,found_low_signal=1
+device 0 test option [beep] enabled=1,result=PASS
+device 0 test option [power button] enabled=0,result=IGNORE
+device 0 test option [reset button] enabled=4,result=PASS
+device 0 test option [power led] enabled=8,result=PASS
+device 0 test option [hdd led] enabled=16,result=PASS
+
+ PWR_HEADER test Device 0,Result=PASS
+
+  Test Item PWR_HEADER,Result=PASS
+[2024-11-19 07:20:10 241,00000f5c,ItemTests:638,D] 
+  Test Item PWR_HEADER,Result=PASS
+[2024-11-19 07:20:10 241,00000f5c,NewUpdateFw:541,D]  E
+[2024-11-19 07:20:10 241,00000f5c,UpdateTargetDeviceList:197,D]  bcdTarget=516,mid=2,sid=ff,tszFWPath=FW_0516.bix.
+[2024-11-19 07:20:10 251,00000f5c,UpdateTargetDeviceList:220,D] found device count=1
+[2024-11-19 07:20:10 353,00000f5c,UpdateTargetDeviceList:238,D]  found device,bus=2,path=6,bcd=100,mid=2,sid=ff
+[2024-11-19 07:20:10 463,00000f5c,NewUpdateFw:557,D]  X rc=0
+[2024-11-19 07:20:10 463,00000f5c,Test:791,D] X.rc=0
+    dt=4924,rc=0
+[2024-11-19 07:20:10 465,00000f5c,main:1220,D] X    dt=4924,rc=0
+
+                Ret=0
+   WHMON - ASUS(R) WHMON Utility Rev. 3.03 Build Sep 29 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+....Start test item (BEEP)...
+
+[BEEP Test]: PASS!
+....End test item (BEEP).....
+
+1 items tested!
+0 items failed!
+                      Return Code = 0

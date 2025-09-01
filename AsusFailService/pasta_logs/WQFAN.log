@@ -1,0 +1,21 @@
+ 
+*** Q_FAN Test *** 
+ 
+::WHMON.EXE /EXE QFANTEST.dat 
+   WHMON - ASUS(R) WHMON Utility Rev. 3.03 Build Sep 29 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+....Start test item (4Pin_Qfan)...
+
+"CPU_FAN_QFAN:"
+High limit Pass:0.32677(Current Value) < 0.90000(High Limit)
+"CHA_FAN1_QFAN:"
+High limit Pass:0.32711(Current Value) < 0.90000(High Limit)
+
+[4Pin_Qfan Test]: PASS!
+....End test item (4Pin_Qfan).....
+
+1 items tested!
+0 items failed!
+                      Return Code = 0
+ 
+*** QFAN TEST PASS *** 

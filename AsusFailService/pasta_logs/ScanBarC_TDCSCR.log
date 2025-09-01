@@ -1,0 +1,27 @@
+                ASUSTeK COMPUTER INC. WUSBExt Utility  Rev.1.33 Build May 20 2021
+        *********  Copyright(C) ASUSTeK COMPUTER INC. All Rights Reserved.  **********
+Current Platform :Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H610M-CS D4,Sn=240537335600661
+0000000000000000:    4d,42,31,46,32,44,30,30,30,30,30,30,30,30,30,30    MB1F2D0000000000
+0000000000000010:    53,32,34,30,35,33,37,33,33,35,36,30,30,36,36,31    S240537335600661
+0000000000000020:    43,43,32,38,41,41,37,37,44,35,33,34,4c,CC28AA77D534L
+checksum calculate is 28 == get is 28.
+checksum calculate is 21 == get is 21.
+
+ID information:
+ HEAD_ID:MB1F2D0000000000S
+ SFIS_ID:240537335600661
+ MAC1_ID:CC28AA77D534
+STATION_ID:
+
+ID had store to configure file(ALL_BarC.INI).
+    dt=17,rc=0
+
+                Ret=0
+Search Data = MB1F2D3D000000008
+The Result Is :
+Search Data = MB1F2D0000000000S
+The Result Is :
+Line 1 =MB1F2D0000000000S
+item 2: MB1F2D0000000000S 
+ 
+*** TDC-SCANNER CARD TEST PASS *** 

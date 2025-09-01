@@ -1,0 +1,125 @@
+
+*******************************
+*** hdd rw dma and Loc test ***
+*******************************
+   WHDD - ASUS(R) WHDD Utility Rev. 1.63 Build Jun  2 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Save information to file TEMPHDDLOCSPD.ini success !
+                      Return Code = 0
+Compare HDDLOCSPD.ini & TEMPHDDLOCSPD.ini332/332Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(HDDLOCSPD.ini)	file2(TEMPHDDLOCSPD.ini)
+... File Compare OK ... 
+ 
+hdd end index is : 3 
+   WHDD - ASUS(R) WHDD Utility Rev. 1.63 Build Jun  2 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+
+HDD Port: SATA6G_1
+
+
+HDD Port: SATA6G_1
+
+offset is 0x1d0755 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  0              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :1902421.
+Aging Disk 0 Progress:        0 K Sectors
+Aging Disk 0 Progress:        1 K Sectors
+Aging Disk 0 success.
+                      Return Code = 0
+***************************
+*** HDD 0 RW TEST PASS  ***
+***************************
+ 
+   WHDD - ASUS(R) WHDD Utility Rev. 1.63 Build Jun  2 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+
+HDD Port: SATA6G_2
+
+
+HDD Port: SATA6G_2
+
+offset is 0x3a673 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  1              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :239219.
+Aging Disk 1 Progress:        0 K Sectors
+Aging Disk 1 Progress:        1 K Sectors
+Aging Disk 1 success.
+                      Return Code = 0
+***************************
+*** HDD 1 RW TEST PASS  ***
+***************************
+ 
+   WHDD - ASUS(R) WHDD Utility Rev. 1.63 Build Jun  2 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+
+HDD Port: SATA6G_3
+
+------------------------------------------------------------
+  PhysicalDrive  Volume         TotalSpace     FreeSpace
+  2               C:             118.5GB        83.1GB
+------------------------------------------------------------
+
+Test HD mode name is :  tigo SSD 128GB 
+
+Start Normal Test.
+Aging C: Volume Progress: 000001F4 KB data
+Aging C: Volume Success.
+                      Return Code = 0
+***************************
+*** HDD 2 RW TEST PASS  ***
+***************************
+ 
+   WHDD - ASUS(R) WHDD Utility Rev. 1.63 Build Jun  2 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+Error: CreateFile to get partition info faialed(ErrCode: 5).
+
+HDD Port: SATA6G_4
+
+
+HDD Port: SATA6G_4
+
+offset is 0x2b2b9 
+-------------------------------------------------
+  PhysicalDrive  TotalSpace(GB)  TotalSector(K)
+  3              119.2GB         244208
+-------------------------------------------------
+
+Start Normal Test,start sector :176825.
+Aging Disk 3 Progress:        0 K Sectors
+Aging Disk 3 Progress:        1 K Sectors
+Aging Disk 3 success.
+                      Return Code = 0
+***************************
+*** HDD 3 RW TEST PASS  ***
+***************************
+ 
+
+*** HDD RW DMA and Loc test Pass ***

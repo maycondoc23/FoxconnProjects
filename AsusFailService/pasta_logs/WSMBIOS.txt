@@ -1,0 +1,3656 @@
+[00:00:000] Time:[2024-09-13 21:56:33.733] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-09-13 21:56:39.268] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:56:39.299] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 0301
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Fail (3403 != 0301)
+
+
+
+[00:00:015] ---end function /c,result 255.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:56:39.924] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:56:39.955] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:56:39.971] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:57:38.380] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:58:29.111] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:58:29.143] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3406
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Fail (3403 != 3406)
+
+
+
+[00:00:015] ---end function /c,result 255.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:58:41.572] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:58:41.588] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:58:41.619] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 03/22/2022
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 03/22/2022)
+
+
+
+[00:00:015] ---end function /c,result 255.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:01.725] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:01.756] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-09-13 21:59:01.772] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:04.179] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 11:57:15.965] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /C -UUID
+[00:00:000] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:000] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:16.793] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 11:57:17.527] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:10:25.030] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 12:10:41.441] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 12:10:47.776] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:022] Time:[2024-11-11 12:10:47.798] 
+[00:00:022] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:022] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:022] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:022] ---end function /c,result 0.---
+[00:00:022] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:47.814] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:47.845] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:48.092] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:022] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:022] ---end function /C,result 0.---
+[00:00:022] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:48.115] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:48.146] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:10:59.137] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:020] Time:[2024-11-11 12:10:59.537] 
+[00:00:020] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:020] command line:WSMBIOS.EXE /T 2
+[00:00:020] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:020] ---end function /T,result 2.---
+[00:00:020] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:59.853] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:11:17.230] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:23:39.645] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 12:23:44.926] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:000] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:000] ---end function /c,result 0.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:44.957] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:44.972] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.004] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.238] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.254] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.269] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:011] Time:[2024-11-11 12:23:56.654] 
+[00:00:011] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:011] command line:WSMBIOS.EXE /C -UUID
+[00:00:011] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:019] ---end function /C,result 2.---
+[00:00:019] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:57.004] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:57.301] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:14.463] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:30:25.133] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 12:30:31.601] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:31.616] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:31.632] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:30:31.663] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /T 2
+[00:00:000] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:000] ---end function /T,result 2.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:31.882] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:31.913] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:31.929] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:30:43.072] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:30:43.431] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /T 2
+[00:00:010] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:010] ---end function /T,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:43.762] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:31:13.308] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /t 2
+[00:00:000] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:34:57.550] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 12:35:02.972] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:02.988] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.003] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.050] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.269] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.284] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.300] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:35:14.070] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:020] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:020] ---end function /C,result 2.---
+[00:00:020] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:009] Time:[2024-11-11 12:35:14.429] 
+[00:00:009] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:009] command line:WSMBIOS.EXE /T 2
+[00:00:009] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:009] ---end function /T,result 2.---
+[00:00:009] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:14.752] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:35:33.487] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 12:44:42.614] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 12:45:03.189] 
+[00:00:015] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:015] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 12:45:07.292] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 12:45:13.448] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:13.464] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:13.495] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:13.526] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:13.760] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:13.792] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:13.807] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:25.257] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:25.621] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:010] Time:[2024-11-11 12:45:25.940] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:46:57.965] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:14:06.812] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 14:14:13.265] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:14:13.281] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:000] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:000] ---end function /c,result 0.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:13.312] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:13.343] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:13.578] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:13.593] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:13.609] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:008] Time:[2024-11-11 14:14:25.000] 
+[00:00:008] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:008] command line:WSMBIOS.EXE /C -UUID
+[00:00:008] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:008] ---end function /C,result 2.---
+[00:00:008] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:25.357] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:25.654] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:55.046] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:17:33.325] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 14:17:38.981] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:17:38.997] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:17:39.013] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:17:39.513] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:17:39.528] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:17:39.544] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:51.718] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:23:09.260] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 14:23:13.760] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:13.791] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:13.806] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:23:13.838] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /T 2
+[00:00:000] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:000] ---end function /T,result 2.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:14.088] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:23:14.103] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:14.135] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-11 14:23:25.196] 
+[00:00:019] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:019] command line:WSMBIOS.EXE /C -UUID
+[00:00:019] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:019] ---end function /C,result 2.---
+[00:00:019] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:25.592] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:25.936] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:43.966] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:31:23.890] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-11 14:31:29.749] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:000] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:29.780] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:29.796] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:29.827] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:30.061] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:30.077] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:30.092] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:31:41.549] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:41.909] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:42.206] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:32:00.002] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:54:56.814] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 14:55:03.475] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:03.491] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:03.507] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:03.553] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:03.772] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:03.788] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:03.803] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:55:15.271] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:55:15.608] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /T 2
+[00:00:000] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:000] ---end function /T,result 2.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:15.921] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:55:35.467] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /t 2
+[00:00:000] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:30:18.745] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-12 07:31:04.333] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 07:31:12.020] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:12.035] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:12.067] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:12.551] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:12.582] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:12.598] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:41.072] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:58:40.348] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-11 14:59:19.799] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:19.814] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:59:19.830] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:000] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:19.877] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:20.111] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:20.127] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:20.142] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-11 14:59:30.818] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:020] Time:[2024-11-11 14:59:31.178] 
+[00:00:020] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:020] command line:WSMBIOS.EXE /T 2
+[00:00:020] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:020] ---end function /T,result 2.---
+[00:00:020] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:020] Time:[2024-11-11 14:59:31.478] 
+[00:00:020] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:020] command line:WSMBIOS.EXE /C -UUID
+[00:00:020] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:020] ---end function /C,result 2.---
+[00:00:020] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:48.227] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:51:03.981] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 07:52:30.977] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:52:30.993] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:000] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:31.024] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:31.055] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:31.289] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:31.305] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:31.321] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-12 07:52:42.061] 
+[00:00:020] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:020] command line:WSMBIOS.EXE /C -UUID
+[00:00:020] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:020] ---end function /C,result 2.---
+[00:00:020] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:010] Time:[2024-11-12 07:52:42.441] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /T 2
+[00:00:010] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:010] ---end function /T,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:009] Time:[2024-11-12 07:52:42.771] 
+[00:00:009] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:009] command line:WSMBIOS.EXE /C -UUID
+[00:00:019] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:019] ---end function /C,result 2.---
+[00:00:019] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:53:00.770] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:58:48.998] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 07:58:54.294] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:54.310] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:54.341] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:54.356] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:54.606] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:54.638] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:54.653] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:06.160] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:06.549] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:06.877] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:24.275] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:02:14.178] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-12 08:04:03.187] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 08:04:12.140] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:04:12.156] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:000] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:12.187] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:12.218] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:12.452] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:12.468] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:12.484] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:24.401] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:04:24.771] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /T 2
+[00:00:010] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:010] ---end function /T,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:04:25.081] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:04:43.966] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /t 2
+[00:00:000] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:07:25.546] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-12 08:07:33.726] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 08:07:39.007] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:39.038] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:39.054] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:39.101] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:39.335] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:39.366] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:39.382] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:07:50.972] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:07:51.357] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /T 2
+[00:00:010] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:010] ---end function /T,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:07:51.686] 
+[00:00:009] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:009] command line:WSMBIOS.EXE /C -UUID
+[00:00:009] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:009] ---end function /C,result 2.---
+[00:00:009] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:08:11.461] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:27:22.994] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 08:27:28.259] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:28.275] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:27:28.290] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:000] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:000] ---end function /c,result 0.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:28.337] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:28.571] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:28.587] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:28.603] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:27:39.744] 
+[00:00:009] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:009] command line:WSMBIOS.EXE /C -UUID
+[00:00:009] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:009] ---end function /C,result 2.---
+[00:00:009] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:009] Time:[2024-11-12 08:27:40.105] 
+[00:00:009] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:009] command line:WSMBIOS.EXE /T 2
+[00:00:009] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:009] ---end function /T,result 2.---
+[00:00:009] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:40.436] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:28:10.635] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:28:55.548] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 08:31:01.705] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:01.721] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:01.737] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:01.784] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:01.987] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:02.018] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:02.034] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:13.560] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:13.905] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:14.202] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:31:32.134] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /t 2
+[00:00:000] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:33:55.348] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-12 08:34:01.676] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:01.707] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:01.723] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:01.754] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:34:01.973] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:000] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:000] ---end function /C,result 0.---
+[00:00:000] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:02.004] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:02.019] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:010] Time:[2024-11-12 08:34:13.216] 
+[00:00:010] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:010] command line:WSMBIOS.EXE /C -UUID
+[00:00:010] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:010] ---end function /C,result 2.---
+[00:00:010] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:13.589] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:13.901] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:33.003] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:41:40.226] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-13 10:02:20.196] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-13 10:02:25.196] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.211] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.243] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.274] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.493] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.524] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.539] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:37.055] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:37.414] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:37.695] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:55.142] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:04:57.869] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-13 10:06:07.370] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:07.386] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:07.402] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:07.433] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:07.652] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:07.667] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:07.683] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:020] Time:[2024-11-13 10:06:19.026] 
+[00:00:020] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:020] command line:WSMBIOS.EXE /C -UUID
+[00:00:020] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:020] ---end function /C,result 2.---
+[00:00:020] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:19.363] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:19.628] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:37.678] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:08:36.099] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-13 10:09:15.324] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-13 10:09:20.449] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:000] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.480] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.495] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.527] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.745] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.777] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.792] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:019] Time:[2024-11-13 10:09:31.922] 
+[00:00:019] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:019] command line:WSMBIOS.EXE /C -UUID
+[00:00:019] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:019] ---end function /C,result 2.---
+[00:00:019] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:019] Time:[2024-11-13 10:09:32.274] 
+[00:00:019] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:019] command line:WSMBIOS.EXE /T 2
+[00:00:019] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:019] ---end function /T,result 2.---
+[00:00:019] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:32.555] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:12:18.257] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:18:40.679] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-18 10:35:25.160] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:25.176] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Fail (3206 != 3403)
+
+
+
+[00:00:015] ---end function /c,result 255.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:25.223] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335601810
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:25.426] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:25.457] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:25.473] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:009] Time:[2024-11-18 10:35:36.974] 
+[00:00:009] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:009] command line:WSMBIOS.EXE /C -UUID
+[00:00:009] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:3b9ddaa2d52d24bf74f9cc28aa77d57a
+
+
+
+[00:00:009] ---end function /C,result 2.---
+[00:00:009] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-18 10:35:37.302] 
+[00:00:000] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:WSMBIOS.EXE /T 2
+[00:00:000] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335601810
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:37.614] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:3b9ddaa2d52d24bf74f9cc28aa77d57a
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:36:07.276] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335601810
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-18 22:00:26.060] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:04:06.390] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:04:47.342] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:23.244] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:28.150] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:38.078] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:06:33.598] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:07:17.402] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:04:31.279] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:39.621] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:48.253] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:05:58.309] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:08:19.419] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:000] Time:[2024-11-18 22:09:18.054] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 0.---
+[00:00:000] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-18 22:09:26.131] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:26.162] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:26.178] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:26.209] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:26.444] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:26.475] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:26.491] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:37.998] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:38.402] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:38.745] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:14:17.214] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-19 07:19:19.892] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===
+[00:00:015] Time:[2024-11-19 07:19:24.658] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -boardname PRIME H610M-CS D4
+[00:00:015] ---start function /c.---
+
+[Check Base Board Name]:Pass (PRIME H610M-CS D4 = PRIME H610M-CS D4)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:24.673] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -ver 3403
+[00:00:015] ---start function /c.---
+
+[Check BIOS Version]:Pass (3403 = 3403)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:24.704] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /c -biosdate 08/08/2024
+[00:00:015] ---start function /c.---
+
+[Check BIOS Release Date]:Pass (08/08/2024 != 08/08/2024)
+
+
+
+[00:00:015] ---end function /c,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:24.720] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:24.970] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -EXTCLK 100
+[00:00:015] ---start function /C.---
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:24.986] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller0-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:25.017] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -MEMLOC Controller1-ChannelA-DIMM0 -MEMSIZE 4096
+[00:00:015] ---start function /C.---
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+[00:00:015] ---end function /C,result 0.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:36.001] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:36.391] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /T 2
+[00:00:015] ---start function /T.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /T,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:36.735] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /C -UUID
+[00:00:015] ---start function /C.---
+Wrong parameter!uuid expected!!!
+Olny show UUID .
+
+[UUID]:b89e4fb2d770c0d9fc98cc28aa77d534
+
+
+
+[00:00:015] ---end function /C,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:20:17.810] 
+[00:00:015] ===start tool:WSMBIOS.EXE (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:015] command line:WSMBIOS.EXE /t 2
+[00:00:015] ---start function /t.---
+Base Board (or Module) Information (Type 2)
+-------------------------------------------------------------------------
+Type: 2    Length: 15    Handle: 0002
+Manufacturer:  ASUSTeK COMPUTER INC.
+Product:       PRIME H610M-CS D4
+Version:       Rev 1.xx
+Serial Number: 240537335600661
+[00:00:015] ---end function /t,result 2.---
+[00:00:015] ===end tool:WSMBIOS.EXE,result 2, error code ffffff.===
+[00:00:000] Time:[2024-11-19 07:23:13.613] 
+[00:00:000] ===start tool:wsmbios (tool Ver.1.32,tthlp Ver.1.09).===
+[00:00:000] command line:wsmbios /vd MEMORY_SCAN_1.INI -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wsmbios,result 0, error code 0.===

@@ -1,0 +1,8 @@
+run Wvga.exe /testdisplay -n 1 -oemf 1 -skip 0368 
+********************************************************************************
+  WVGA -- ASUS(R)  Windows VGA Check utility version 1.20 BUILD Mar  5 2019
+**********  Copyright (C) ASUSTek Computer Inc. All Rights Reserved.  **********
+Please input the number in the screen: 133, 120Please input the number in the screen: 19.
+			return code = 0
+ 
+*** Monitor display number test pass *** 

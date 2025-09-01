@@ -1,0 +1,24 @@
+::Wnet.exe /s -f lanInfo.xml -sort 
+        WNET -- ASUS(R) Windows network check Rev. 1.28 BUILD Build May 30 2019
+**********  Copyright (C) ASUSTek Computer Inc. All Rights Reserved.  **********
+Test lan speed with xml file: lanInfo.xml
+
+01
+[Lan01 Description]: "Realtek PCIe GbE Family Controller"
+[Lan01 ServiceName]: {8602E846-4F7D-4DC2-80ED-BA45FDD5C276}
+[Lan01 LANSpeed]: 1000 Mbps
+[Lan01 MAC Address]: CC-28-AA-77-D5-34
+[Lan01 Connect]: Connected
+[Lan01 Speed Test]: PASS
+
+
+
+
+
+
+
+
+
+
+                    Return_Code=0 
+*** GLAN TEST Pass *** 

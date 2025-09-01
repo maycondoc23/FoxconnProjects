@@ -1,0 +1,10 @@
+ 
+::Pre_chk_sfis 
+::WAT.EXE /C TEMPSFIS.INI ORIGSFIS.INI 
+Compare TEMPSFIS.INI & ORIGSFIS.INI15/13File compare error with different filesize !! 
+::WAT.EXE /C TEMPSFIS.INI SC_SFIS.INI 
+Compare TEMPSFIS.INI & SC_SFIS.INI15/15Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(TEMPSFIS.INI)	file2(SC_SFIS.INI)
+... File Compare OK ... 
+*** Write SFIS PASS *** 

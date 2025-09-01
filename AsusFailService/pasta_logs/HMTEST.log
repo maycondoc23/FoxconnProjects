@@ -1,0 +1,14 @@
+   WHMON - ASUS(R) WHMON Utility Rev. 3.03 Build Sep 29 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+ItemID		Current Low     High    Result	ItemName
+06030012	530	150	900	[PASS]	CPU Temperature
+06030014	290	150	600	[PASS]	MotherBoard Temperature
+06040013	2002	1500	8000	[PASS]	CPU Fan RPM
+06040073	3325	1500	8000	[PASS]	Chassis Fan RPM
+06020011	1110	0	1520	[PASS]	CPU Core Voltage Voltage
+06020061	12192	11100	12900	[PASS]	+12V Voltage
+06020062	5000	4625	5375	[PASS]	+5V Voltage
+06020063	3328	3053	3548	[PASS]	+3.3V Voltage
+06020064	1200	1100	1350	[PASS]	DRAM Voltage Voltage
+                      Return Code = 0
+*** HM TEST PASS ***

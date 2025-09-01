@@ -1,0 +1,463 @@
+MB SFIS: 230723293217537
+STATION: FT2-08
+DATE: 07/11/2024 TIME: 22:52:56
+FAIL(s) CODE(s): 112V11P12Y14S13W14R12412512I11A1
+FAIL(s) NAME(s): ['ScanBarC_TDCSCR', 'RTLAUDIO', 'CUST_2', 'USB_PANEL', 'CHK_HEADERS', 'USB_TEST', 'WR_SFIS', 'WR_UUID', 'RTL8111H', 'CHK_SFIS', 'CHK_UUID', 'CHKMAC', 'WCOMCHK', 'SPI_TPM']
+
+
+
+--------------- ScanBarC_TDCSCR --------------- 
+
+                ASUSTeK COMPUTER INC. WUSBExt Utility  Rev.1.40 Build Aug 17 2022
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+            Return Code = 255,DT=34
+
+ 
+*** READ BARCODE FROM SCANNER FAIL ***  
+
+
+--------------- RTLAUDIO --------------- 
+
+WAUTEST.EXE 1.30 
+*** For RTL-ALC8** test ***
+ 
+::1st 
+::start /wait wautest.exe 
+ 
+::2nd 
+::start /wait wautest.exe 
+ 
+**** Audio test fail **** 
+ 
+TEST RESULT  2024/11/07 22:47:24	
+
+Codec Register Get/Set Command not Test!
+
+Codec Register Default(Parameter) not Test!
+
+HD Codec Configuration Byte not Test!
+
+Fail Widge=14 JD Test!
+
+Fail Widge=1a JD Test!
+
+Fail Widge=1b JD Test!
+
+Fail Widge=18 JD Test!
+
+Fail Widge=19 JD Test!
+
+Pass Playback/Recording Test!
+
+THD+N not Test!
+
+Pass L/R Channel Short Test!
+
+Mute not Test!
+
+GHS not Test!
+
+Vref1 not Test!
+
+Vref2 not Test!
+
+Vref3 not Test!
+
+SPDIFIN/OUT(48K) not Test!
+
+WAVE IN/OUT Device fail!
+
+
+
+
+
+
+
+--------------- CUST_2 --------------- 
+
+ 
+********************** 
+*** video 2.0 test *** 
+********************** 
+ 
+::Video_init 
+                ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.41 Build Aug 25 2023 (x32)
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+[2024-11-07_22:47:18 018,00000d94,libtdc::tdc_init:1621,W] platform bios info:oem=American Megatrends Inc.,version=1001,size=1000000
+[2024-11-07_22:47:18 018,00000d94,libtdc::tdc_init:1626,W] platform board info:oem=ASUSTeK COMPUTER INC.,product=PRIME H510M-K R2.0,version=Rev 1.xx,sn=230723293217537
+[2024-11-07_22:47:18 018,00000d94,libtdc::tdc_init:1630,W] cmdline=wdisplaytest.exe /init -ddc -debug 
+[2024-11-07_22:47:18 018,00000d94,libtdc::tdc_init:1633,W] test tool info: project=WDisplayTest,version=1.41,date=Aug 25 2023
+[2024-11-07_22:47:18 025,00000d94,main:3913,W] Current Platform :SVID=1043,Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H510M-K R2.0,Sn=230723293217537
+[2024-11-07_22:47:18 025,00000d94,main:3917,W] verifying platform.
+[2024-11-07_22:47:18 025,00000d94,platform_verify:212,W] platform verify svid=1043,oem=ASUSTeK COMPUTER INC.
+[2024-11-07_22:47:18 026,00000d94,InitSystemInfo:3329,W] Display InstanceId:PCI\VEN_8086&DEV_4C8B&SUBSYS_86941043&REV_04\3&11583659&0&10
+[2024-11-07_22:47:18 034,00000d94,InitSystemInfo:3335,W] Display Adaptor:Intel(R) UHD Graphics 730
+[2024-11-07_22:47:18 034,00000d94,InitSystemInfo:3329,W] Display InstanceId:ROOT\BASICDISPLAY\0000
+[2024-11-07_22:47:18 034,00000d94,DisableWindowsNotification:593,W]  E
+[2024-11-07_22:47:18 036,00000d94,InitVideoCardBySetMB:479,W] Sending Reset Cmd.
+[2024-11-07_22:47:18 221,00000d94,SendDDCCommand:359,W] Check.size=1,dwMonitorCount=1
+[2024-11-07_22:47:18 221,00000d94,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd Reset On
+[2024-11-07_22:47:22 602,00000d94,SendDDCCommand:359,W] Check.size=1,dwMonitorCount=1
+[2024-11-07_22:47:22 602,00000d94,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd Hotplug On
+[2024-11-07_22:47:25 672,00000d94,CDisplayManager::ActiveDefaultMonitor:1165,W]  Enum Device: DELL E1913 w=900,h=1440.
+[2024-11-07_22:47:25 672,00000d94,CDisplayManager::ActiveDefaultMonitor:1197,W] Default Device: DELL E1913 x=0,y=0,w=900,h=1440.
+            Return Code = 0
+
+[2024-11-07_22:47:25 694,00000d94,TDCLogger::~TDCLogger:30,W] closing m_fp=00A68CE0 dt=7677 ms
+
+ 
+::Video_test 
+                ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.41 Build Aug 25 2023 (x32)
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+MonitorName         |DefaultMode         |CurrentMode         |MaxMode             |Position     |Active|MID |PID |TYPE            |Adaptor             
+DELL E1913          | 1440 x 900  @ 59   | 1440 x 900  @ 60   | 1280 x 1024 @ 75   |0     ,0     |1     |AC10|D051|DP_EXTERNAL     |Intel(R) UHD Graphics 730
+            Return Code = 0
+
+run WDisplayTest.exe /T -HDMI -debug -reset
+TDC_HDMI Result=FAIL 
+ 
+::Video_init 
+                ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.41 Build Aug 25 2023 (x32)
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+[2024-11-07_22:47:40 405,00002638,libtdc::tdc_init:1621,W] platform bios info:oem=American Megatrends Inc.,version=1001,size=1000000
+[2024-11-07_22:47:40 405,00002638,libtdc::tdc_init:1626,W] platform board info:oem=ASUSTeK COMPUTER INC.,product=PRIME H510M-K R2.0,version=Rev 1.xx,sn=230723293217537
+[2024-11-07_22:47:40 405,00002638,libtdc::tdc_init:1630,W] cmdline=wdisplaytest.exe /init -ddc -debug 
+[2024-11-07_22:47:40 405,00002638,libtdc::tdc_init:1633,W] test tool info: project=WDisplayTest,version=1.41,date=Aug 25 2023
+[2024-11-07_22:47:40 412,00002638,main:3913,W] Current Platform :SVID=1043,Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H510M-K R2.0,Sn=230723293217537
+[2024-11-07_22:47:40 412,00002638,main:3917,W] verifying platform.
+[2024-11-07_22:47:40 412,00002638,platform_verify:212,W] platform verify svid=1043,oem=ASUSTeK COMPUTER INC.
+[2024-11-07_22:47:40 413,00002638,InitSystemInfo:3329,W] Display InstanceId:PCI\VEN_8086&DEV_4C8B&SUBSYS_86941043&REV_04\3&11583659&0&10
+[2024-11-07_22:47:40 414,00002638,InitSystemInfo:3335,W] Display Adaptor:Intel(R) UHD Graphics 730
+[2024-11-07_22:47:40 414,00002638,InitSystemInfo:3329,W] Display InstanceId:ROOT\BASICDISPLAY\0000
+[2024-11-07_22:47:40 414,00002638,DisableWindowsNotification:593,W]  E
+[2024-11-07_22:47:40 415,00002638,InitVideoCardBySetMB:479,W] Sending Reset Cmd.
+[2024-11-07_22:47:40 599,00002638,SendDDCCommand:359,W] Check.size=1,dwMonitorCount=1
+[2024-11-07_22:47:40 599,00002638,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd Reset On
+[2024-11-07_22:47:44 990,00002638,SendDDCCommand:359,W] Check.size=1,dwMonitorCount=1
+[2024-11-07_22:47:44 990,00002638,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd Hotplug On
+[2024-11-07_22:47:48 068,00002638,CDisplayManager::ActiveDefaultMonitor:1165,W]  Enum Device: DELL E1913 w=900,h=1440.
+[2024-11-07_22:47:48 068,00002638,CDisplayManager::ActiveDefaultMonitor:1197,W] Default Device: DELL E1913 x=0,y=0,w=900,h=1440.
+            Return Code = 0
+
+[2024-11-07_22:47:48 105,00002638,TDCLogger::~TDCLogger:30,W] closing m_fp=00ACC9C8 dt=7700 ms
+
+ 
+::Video_test 
+                ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.41 Build Aug 25 2023 (x32)
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+MonitorName         |DefaultMode         |CurrentMode         |MaxMode             |Position     |Active|MID |PID |TYPE            |Adaptor             
+DELL E1913          | 1440 x 900  @ 59   | 1440 x 900  @ 60   | 1280 x 1024 @ 75   |0     ,0     |1     |AC10|D051|DP_EXTERNAL     |Intel(R) UHD Graphics 730
+            Return Code = 0
+
+run WDisplayTest.exe /T -HDMI -debug -reset
+TDC_HDMI Result=FAIL 
+*** VIDEO TEST FAIL ***
+[2024-11-07_22:47:50 225,00002178,TDCLogger::TDCLogger:21,W] log file created,path=WDisplayTest.log
+[2024-11-07_22:47:50 225,00002178,libtdc::show_header:465,W]                 ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.41 Build Aug 25 2023 (x32)
+[2024-11-07_22:47:50 226,00002178,libtdc::show_header:466,W] **********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+[2024-11-07_22:47:50 227,00002178,libtdc::tdc_init:1621,W] platform bios info:oem=American Megatrends Inc.,version=1001,size=1000000
+[2024-11-07_22:47:50 229,00002178,libtdc::tdc_init:1626,W] platform board info:oem=ASUSTeK COMPUTER INC.,product=PRIME H510M-K R2.0,version=Rev 1.xx,sn=230723293217537
+[2024-11-07_22:47:50 231,00002178,libtdc::tdc_init:1630,W] cmdline=WDisplayTest.exe /T -HDMI -debug -reset 
+[2024-11-07_22:47:50 232,00002178,libtdc::tdc_init:1633,W] test tool info: project=WDisplayTest,version=1.41,date=Aug 25 2023
+[2024-11-07_22:47:50 238,00002178,main:3913,W] Current Platform :SVID=1043,Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H510M-K R2.0,Sn=230723293217537
+[2024-11-07_22:47:50 240,00002178,main:3917,W] verifying platform.
+[2024-11-07_22:47:50 241,00002178,platform_verify:212,W] platform verify svid=1043,oem=ASUSTeK COMPUTER INC.
+[2024-11-07_22:47:50 243,00002178,InitSystemInfo:3329,W] Display InstanceId:PCI\VEN_8086&DEV_4C8B&SUBSYS_86941043&REV_04\3&11583659&0&10
+[2024-11-07_22:47:50 245,00002178,InitSystemInfo:3335,W] Display Adaptor:Intel(R) UHD Graphics 730
+[2024-11-07_22:47:50 246,00002178,InitSystemInfo:3329,W] Display InstanceId:ROOT\BASICDISPLAY\0000
+[2024-11-07_22:47:50 247,00002178,DisableWindowsNotification:593,W]  E
+[2024-11-07_22:47:50 249,00002178,CDisplayManager::LoadTestConfig:37,W] Load Test Config From VIDEO_TEST.INI
+[2024-11-07_22:47:50 251,00002178,CDisplayManager::LoadTestConfig:85,W] MainDisplayPort=TDC_VGA
+[2024-11-07_22:47:50 252,00002178,CDisplayManager::LoadTestConfig:80,W] MonitorName=TDC_HDMI
+[2024-11-07_22:47:50 253,00002178,CDisplayManager::LoadTestConfig:80,W] MonitorName=TDC_DVI
+[2024-11-07_22:47:50 254,00002178,CDisplayManager::LoadTestConfig:80,W] MonitorName=TDC_DP
+[2024-11-07_22:47:50 256,00002178,CDisplayManager::LoadTestConfig:80,W] MonitorName=TDC_VGA
+[2024-11-07_22:47:50 257,00002178,CDisplayManager::LoadTestConfig:80,W] MonitorName=TDC_LVDS
+[2024-11-07_22:47:50 259,00002178,TestMonitor:905,W] test monitor name=TDC_HDMI,Config size=13
+[2024-11-07_22:47:50 260,00002178,CDisplayManager::AssignCurrentTestItem:2113,W]  MonotorName=TDC_HDMI,x=0,y=0,w=3840,h=2160,freq=30
+[2024-11-07_22:47:50 261,00002178,InitTargetPort:663,W] Init Target Port:TDC_HDMI,pos[0,0]
+[2024-11-07_22:47:50 262,00002178,SendDDCCommand:359,W] Check.size=2,dwMonitorCount=1
+[2024-11-07_22:47:50 263,00002178,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd HDMI Switch 7619
+[2024-11-07_22:47:50 833,00002178,SendDDCCommand:363,W] DDC i=1,x=0,y=0,Cmd HDMI Switch FPGA
+[2024-11-07_22:47:51 911,00002178,InitTargetPort:732,W] Searching Device Target=TDC_HDMI
+[2024-11-07_22:47:54 926,00002178,InitTargetPort:732,W] Searching Device Target=TDC_HDMI
+[2024-11-07_22:47:58 941,00002178,CDisplayManager::SetDisplayScale:1331,W]  E name=TDC_HDMI x=0,y=0,vid=0,pid=0 flags=1
+[2024-11-07_22:47:59 972,00002178,TestMonitor:944,E] Initial Target Port Failed.Target=TDC_HDMI
+[2024-11-07_22:47:59 975,00002178,TestMonitor:957,W] current display name=DELL E1913,pos=[0,0],w=1440,h=900,active=1
+[2024-11-07_22:47:59 976,00002178,TestMonitor:978,E] not enough device for multiple test,device count=1
+[2024-11-07_22:47:59 977,00002178,TestMonitor:1013,E] invalid test status,testing TDC_HDMI,main display port=TDC_VGA,but tdc_hdmi not exist.
+[2024-11-07_22:47:59 979,00002178,TestMonitor:1034,E] valid check failed,valid_check=1,is_valid=0
+[2024-11-07_22:47:59 980,00002178,TestMonitor:1263,W] TDC_HDMI Result=FAIL
+[2024-11-07_22:47:59 989,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:47:59 991,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:47:59 992,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:47:59 994,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:47:59 996,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:47:59 997,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:47:59 999,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 000,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 001,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 003,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 006,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 008,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 009,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 011,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 013,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 014,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 016,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 017,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 019,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 021,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 022,00002178,CDisplayManager::GetCCDMonitorList:815,W]  Display Config Get Device Info Failed RetCode : 31
+[2024-11-07_22:48:00 024,00002178,CDisplayManager::MergeMonitorList:866,W] gdi Device List count=1,ccd Device List count=1
+[2024-11-07_22:48:00 025,00002178,CDisplayManager::MergeMonitorList:871,W] gdi Device name=DELL E1913,id=\\?\DISPLAY#DELD051#4&221521f6&0&UID4163#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+[2024-11-07_22:48:00 028,00002178,CDisplayManager::MergeMonitorList:891,W] ccd Device name=DELL E1913,id=\
+[2024-11-07_22:48:00 033,00002178,getMonitors:1733,W] DELL E1913 mode detail:
+[2024-11-07_22:48:00 033,00002178,printVideoSignalInfo:1308,W] DELL E1913.activeSize=[1440 x 900] 
+[2024-11-07_22:48:00 034,00002178,printVideoSignalInfo:1309,W] DELL E1913.totalSize=[1904 x 934] 
+[2024-11-07_22:48:00 036,00002178,printVideoSignalInfo:1310,W] DELL E1913.hSyncFreq=106500000/1904 
+[2024-11-07_22:48:00 037,00002178,printVideoSignalInfo:1311,W] DELL E1913.vSyncFreq=106500000/1778336 
+[2024-11-07_22:48:00 038,00002178,printVideoSignalInfo:1312,W] DELL E1913.pixelRate=106500000 
+[2024-11-07_22:48:00 039,00002178,printVideoSignalInfo:1313,W] DELL E1913.vSyncFreqDivider=0x0 
+[2024-11-07_22:48:00 040,00002178,printVideoSignalInfo:1314,W] DELL E1913.AdditionalSignalInfo.videoStandard=0x1 
+[2024-11-07_22:48:00 041,00002178,printVideoSignalInfo:1315,W] DELL E1913.scanLineOrdering=1 
+[2024-11-07_22:48:00 042,00002178,printVideoSignalInfo:1316,W] DELL E1913.videoStandard=0x1 
+[2024-11-07_22:48:00 043,00002178,TestMonitor:1277,W] bReset=1
+[2024-11-07_22:48:00 044,00002178,TestMonitor:1290,W] Reseting Test Card.
+[2024-11-07_22:48:00 045,00002178,SendDDCCommand:359,W] Check.size=2,dwMonitorCount=1
+[2024-11-07_22:48:00 046,00002178,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd Switch VGA Out
+[2024-11-07_22:48:00 222,00002178,SendDDCCommand:363,W] DDC i=1,x=0,y=0,Cmd Reset On
+[2024-11-07_22:48:00 285,00002178,SendDDCCommand:359,W] Check.size=2,dwMonitorCount=1
+[2024-11-07_22:48:00 287,00002178,SendDDCCommand:363,W] DDC i=0,x=0,y=0,Cmd Switch VGA Out
+[2024-11-07_22:48:00 457,00002178,SendDDCCommand:363,W] DDC i=1,x=0,y=0,Cmd Reset On
+[2024-11-07_22:48:00 519,00002178,SetMonitorPower:27,W] Setting Monitor Power state=-1
+[2024-11-07_22:48:00 524,00002178,TestMonitor:1305,W] X rc=255
+[2024-11-07_22:48:00 526,00002178,Test:1417,E]  error: TestMonitor is fail
+[2024-11-07_22:48:00 527,00002178,libtdc::tdc_exit:413,W]             Return Code = 255
+
+[2024-11-07_22:48:00 528,00002178,TDCLogger::~TDCLogger:30,W] closing m_fp=00DDB790 dt=10304 ms
+
+
+
+--------------- USB_PANEL --------------- 
+
+Customer 1.01 
+[2024-11-07 22:47:18 290,00000644,libtdc::init_cmd_line:1060,D] cmdline=WUSBExt.exe /t -pwr 1 -debug 
+                ASUSTeK COMPUTER INC. WUSBExt Utility  Rev.1.40 Build Aug 17 2022
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+[2024-11-07 22:47:18 290,00000644,libtdc::tdc_init:1072,D] E log file WUSBExt.log create ok
+[2024-11-07 22:47:18 290,00000644,main:1083,D] verifying platform.
+[2024-11-07 22:47:18 290,00000644,platform_verify:63,D] E oem=ASUSTeK COMPUTER INC.,platform=PRIME H510M-K R2.0
+[2024-11-07 22:47:18 291,00000644,platform_verify:286,D] current platform:svid=1043,oem=ASUSTeK COMPUTER INC.,product=PRIME H510M-K R2.0,bios_vendor=American Megatrends Inc.,bios_version=1001,bios_size=1000000 rc=1
+[2024-11-07 22:47:18 291,00000644,Test:703,D] E.
+[2024-11-07 22:47:18 291,00000644,CTestItem::LoadConfig:267,D]  Loading Config From WUSBExt.ini
+[2024-11-07 22:47:18 303,00000644,CTestItem::LoadConfig:280,D]  Config section count=14,test name=PWR_HEADER
+[2024-11-07 22:47:18 330,00000644,NewUpdateFw:542,D]  E
+[2024-11-07 22:47:18 330,00000644,UpdateTargetDeviceList:187,D]  bcdTarget=100,mid=2,sid=ff,tszFWPath=FW_HEADER_0328.BIX.
+[2024-11-07 22:47:18 348,00000644,UpdateTargetDeviceList:210,D] found device count=2
+[2024-11-07 22:47:18 455,00000644,UpdateTargetDeviceList:229,D]  found device,bus=1,path=3,bcd=50d,mid=e,sid=ff
+[2024-11-07 22:47:18 565,00000644,UpdateTargetDeviceList:229,D]  found device,bus=1,path=4,bcd=516,mid=e,sid=ff
+[2024-11-07 22:47:18 565,00000644,UpdateTargetDeviceList:283,D]  no match device found.
+[2024-11-07 22:47:18 565,00000644,NewUpdateFw:558,D]  X rc=255
+[2024-11-07 22:47:18 565,00000644,Test:764,D] delaying 5000 ms
+[2024-11-07 22:47:23 570,00000644,Test:772,D] rescan devices
+[2024-11-07 22:47:23 696,00000644,Test:794,D]  current device found bus=1,path=3,bcd=50d,mid=e,sid=ff
+[2024-11-07 22:47:23 805,00000644,Test:794,D]  current device found bus=1,path=4,bcd=516,mid=e,sid=ff
+[2024-11-07 22:47:23 805,0000155c,TestPowerHeader:341,D]  config device count=1,actual device count=0
+[2024-11-07 22:47:23 805,0000155c,TestPowerHeader:348,E]  Target Device Not Found
+[2024-11-07 22:47:23 806,00000644,ItemTests:677,D] 
+  Test Item PWR_HEADER,Result=FAIL
+Result:
+Path            |Test Name       |Mid         |Sid         |Reuslt    |Descriptioin
+[2024-11-07 22:47:23 806,00000644,NewUpdateFw:542,D]  E
+[2024-11-07 22:47:23 806,00000644,UpdateTargetDeviceList:187,D]  bcdTarget=516,mid=2,sid=ff,tszFWPath=FW_0516.bix.
+[2024-11-07 22:47:23 821,00000644,UpdateTargetDeviceList:206,D]  no device found.
+[2024-11-07 22:47:23 821,00000644,NewUpdateFw:558,D]  X rc=255
+[2024-11-07 22:47:23 821,00000644,Test:826,D] X.rc=ff
+            Return Code = 255,DT=5549
+
+[2024-11-07 22:47:23 821,00000644,libtdc::TDCLogger::~TDCLogger:191,D] closing m_fp=01059590 dt=5549 ms
+
+***  panel fail *** 
+
+
+--------------- CHK_HEADERS --------------- 
+
+******************** 
+*** Check header *** 
+******************** 
+ 
+::WUSBExt.exe /t -rgb 1 
+                ASUSTeK COMPUTER INC. WUSBExt Utility  Rev.1.40 Build Aug 17 2022
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+Result:
+Path            |Test Name       |Mid         |Sid         |Reuslt    |Descriptioin
+            Return Code = 255,DT=5416
+
+ 
+::WUSBExt.exe /t -rgb 1 
+                ASUSTeK COMPUTER INC. WUSBExt Utility  Rev.1.40 Build Aug 17 2022
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+Result:
+Path            |Test Name       |Mid         |Sid         |Reuslt    |Descriptioin
+            Return Code = 255,DT=5320
+
+ 
+*** rgb_header test fail *** 
+
+
+--------------- USB_TEST --------------- 
+
+                ASUSTeK COMPUTER INC. UsbTool Utility  Rev.1.48 Build Apr 18 2023 (x32)
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+Current Platform :SVID=1043,Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H510M-K R2.0,Sn=230723293217537
+bus |path            |vid |pid |bcd |group|speed|sequence|typec|layer|description         |L_I  |F_DM |F_DP |F_I  |F_B  |H_P  |H_I  |H_B  |S_I  |S_B  |SP_B |SPD  |DET  |  Result  
+0001|01              |1043|0808|0305|0    | 3/3 |    0   |0    |0    |U32G2_1(U20)        |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|0a              |1043|0808|0303|1    | 3/3 |    0   |0    |0    |USB_9               |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|0b              |1043|0808|0303|2    | 3/3 |    0   |0    |0    |USB_11              |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|0c              |1043|0808|0305|3    | 3/3 |    0   |0    |0    |USB_12              |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|02              |1043|0808|0303|7    | 3/3 |    0   |0    |0    |U32G2_2(U20)        |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|03              |1043|0808|0516|b    | 0/3 |    0   |0    |0    |U32G1_3(U20_UP)     |/    |/    |/    |/    |/    |N    |N    |N    |/    |/    |/    |N    |N    |Fail      
+0001|13              |174c|1351|0100|b    | 0/4 |    0   |0    |0    |U32G1_3(U30_UP)     |/    |/    |/    |/    |/    |/    |/    |/    |/    |N    |/    |N    |N    |Fail      
+0001|04              |1043|0808|0516|c    | 3/3 |    0   |0    |0    |U32G1_4(U20_DOWN)   |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|14              |174c|1351|0100|c    | 4/4 |    0   |0    |0    |U32G1_4(U30_DOWN)   |/    |/    |/    |/    |/    |/    |/    |/    |/    |V    |/    |V    |V    |Pass      
+0001|05              |1043|0808|0305|d    | 3/3 |    0   |0    |0    |LAN_U32G1_5(U20_UP) |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|06              |1043|0808|0305|e    | 3/3 |    0   |0    |0    |LAN_U32G1_6(U20_DOWN)|/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|08              |1043|0808|0305|f    | 3/3 |    0   |0    |0    |KB_USB_8(DOWN)      |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|09              |1043|0808|0303|10   | 3/3 |    0   |0    |0    |USB_10              |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|11              |1043|0808|0305|10   | 4/4 |    0   |0    |0    |U32G2_1(U30)        |/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+0001|12              |1043|0808|0303|10   | 4/4 |    0   |0    |0    |U32G2_2(U30)        |/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+0001|15              |1043|0808|0305|10   | 4/4 |    0   |0    |0    |LAN_U32G1_5(U30_UP) |/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+0001|16              |1043|0808|0305|10   | 4/4 |    0   |0    |0    |LAN_U32G1_6(U30_DOWN)|/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+bus |path                    |group|speed|sequence|typec|layer|vid |pid |bcd |hvid|hpid|hbdf    |dev_path
+0001|14                      |c    |4    |0       |0    |0    |174c|1351|0100|8086|06ed|00:14:00|0.1400.0.20
+0001|0a                      |1    |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.10
+0001|0b                      |2    |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.11
+0001|0c                      |3    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.12
+0001|01                      |0    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.1
+0001|02                      |7    |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.2
+0001|04                      |c    |3    |0       |0    |0    |1043|0808|0516|8086|06ed|00:14:00|0.1400.0.4
+0001|05                      |d    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.5
+0001|06                      |e    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.6
+0001|08                      |f    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.8
+0001|09                      |10   |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.9
+            Return Code = 255
+
+                ASUSTeK COMPUTER INC. UsbTool Utility  Rev.1.48 Build Apr 18 2023 (x32)
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+Current Platform :SVID=1043,Manufacture=ASUSTeK COMPUTER INC.,Product=PRIME H510M-K R2.0,Sn=230723293217537
+bus |path            |vid |pid |bcd |group|speed|sequence|typec|layer|description         |L_I  |F_DM |F_DP |F_I  |F_B  |H_P  |H_I  |H_B  |S_I  |S_B  |SP_B |SPD  |DET  |  Result  
+0001|01              |1043|0808|0305|0    | 3/3 |    0   |0    |0    |U32G2_1(U20)        |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|0a              |1043|0808|0303|1    | 3/3 |    0   |0    |0    |USB_9               |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|0b              |1043|0808|0303|2    | 3/3 |    0   |0    |0    |USB_11              |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|0c              |1043|0808|0305|3    | 3/3 |    0   |0    |0    |USB_12              |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|02              |1043|0808|0303|7    | 3/3 |    0   |0    |0    |U32G2_2(U20)        |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|03              |1043|0808|0516|b    | 0/3 |    0   |0    |0    |U32G1_3(U20_UP)     |/    |/    |/    |/    |/    |N    |N    |N    |/    |/    |/    |N    |N    |Fail      
+0001|13              |174c|1351|0100|b    | 0/4 |    0   |0    |0    |U32G1_3(U30_UP)     |/    |/    |/    |/    |/    |/    |/    |/    |/    |N    |/    |N    |N    |Fail      
+0001|04              |1043|0808|0516|c    | 3/3 |    0   |0    |0    |U32G1_4(U20_DOWN)   |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|14              |174c|1351|0100|c    | 4/4 |    0   |0    |0    |U32G1_4(U30_DOWN)   |/    |/    |/    |/    |/    |/    |/    |/    |/    |V    |/    |V    |V    |Pass      
+0001|05              |1043|0808|0305|d    | 3/3 |    0   |0    |0    |LAN_U32G1_5(U20_UP) |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|06              |1043|0808|0305|e    | 3/3 |    0   |0    |0    |LAN_U32G1_6(U20_DOWN)|/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|08              |1043|0808|0305|f    | 3/3 |    0   |0    |0    |KB_USB_8(DOWN)      |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|09              |1043|0808|0303|10   | 3/3 |    0   |0    |0    |USB_10              |/    |/    |/    |/    |/    |V    |V    |V    |/    |/    |/    |V    |V    |Pass      
+0001|11              |1043|0808|0305|10   | 4/4 |    0   |0    |0    |U32G2_1(U30)        |/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+0001|12              |1043|0808|0303|10   | 4/4 |    0   |0    |0    |U32G2_2(U30)        |/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+0001|15              |1043|0808|0305|10   | 4/4 |    0   |0    |0    |LAN_U32G1_5(U30_UP) |/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+0001|16              |1043|0808|0305|10   | 4/4 |    0   |0    |0    |LAN_U32G1_6(U30_DOWN)|/    |/    |/    |/    |/    |/    |/    |/    |V    |V    |/    |V    |V    |Pass      
+bus |path                    |group|speed|sequence|typec|layer|vid |pid |bcd |hvid|hpid|hbdf    |dev_path
+0001|14                      |c    |4    |0       |0    |0    |174c|1351|0100|8086|06ed|00:14:00|0.1400.0.20
+0001|0a                      |1    |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.10
+0001|0b                      |2    |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.11
+0001|0c                      |3    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.12
+0001|01                      |0    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.1
+0001|02                      |7    |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.2
+0001|04                      |c    |3    |0       |0    |0    |1043|0808|0516|8086|06ed|00:14:00|0.1400.0.4
+0001|05                      |d    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.5
+0001|06                      |e    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.6
+0001|08                      |f    |3    |0       |0    |0    |1043|0808|0305|8086|06ed|00:14:00|0.1400.0.8
+0001|09                      |10   |3    |0       |0    |0    |1043|0808|0303|8086|06ed|00:14:00|0.1400.0.9
+            Return Code = 255
+
+***  test fail *** 
+
+
+--------------- WCOMCHK --------------- 
+
+COM1 Testing........
+00000001: io base = 3f8
+00000002: Ftest Loop
+Time out 2.
+00000003: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000004: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate .115200BPS.......................................... Error
+Time out 2.
+00000005: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000006: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate . 57600BPS.......................................... Error
+Time out 2.
+00000007: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000008: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate . 38400BPS.......................................... Error
+Time out 2.
+00000009: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000010: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate . 19200BPS.......................................... Error
+Time out 2.
+00000011: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000012: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate .  9600BPS.......................................... Error
+Time out 2.
+00000013: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000014: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate .  4800BPS.......................................... Error
+Time out 2.
+00000015: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000016: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate .  2400BPS.......................................... Error
+Time out 2.
+00000017: Read_IO_Byte(baseaddr) 1 = 2a
+Time out 4.
+00000018: Read_IO_Byte(baseaddr) 2 = 2a
+	BaudRate .  1200BPS.......................................... Error
+00000019: _Write_IO_Byte(3fc,0x00)
+00000020: Read_IO_Byte(baseaddr+6 == 0x) = 0
+00000021: _Write_IO_Byte(3fc,0x01)
+00000022: Read_IO_Byte(baseaddr+6 == Ax) = 0
+00000023: _Write_IO_Byte(3fc,0x03)
+00000024: Read_IO_Byte(baseaddr+6 == Fx) = 0
+00000025: _Write_IO_Byte(3fc,0x01)
+00000026: Read_IO_Byte(baseaddr+6 == Ax) = 0
+00000027: _Write_IO_Byte(3fc,0x00)
+00000028: Read_IO_Byte(baseaddr+6 == 0x) = 0
+	Modem Test .................................................. Error
+                            return code = 255 
+*** CHECK 1 COM FAIL *** 
+
+
+--------------- SPI_TPM --------------- 
+
+*** Start TPM Card self test *** 
+ 
+ ::wSkCmdx64.exe -getversion2 
+ 
+
+TBS Error :
+Error Code : 0x8028400f
+Error Details : A compatible Trusted Platform Module (TPM) Security Device cannot be found on this computer.
+
+TPM Error :
+Error Code : UNKNOWN_ERROR (0x8028400f)
+Error Details : Unknown error
+
+Command Failed
+Search Data = FW Version is:   7.2.
+The Result Is :
+ 
+*** TPM Card not found *** 

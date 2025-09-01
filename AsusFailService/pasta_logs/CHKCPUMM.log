@@ -1,0 +1,33 @@
+   WSMBIOS - ASUS(R) WSMBIOS Utility Rev. 1.32 Build Sep 27 2021
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+
+[Check CPU External Clock]:Pass (100 = 100)
+
+
+
+                      Return Code = 0
+WSMBIOS.EXE /C -MEMLOC "Controller0-ChannelA-DIMM0" -MEMSIZE 4096   
+   WSMBIOS - ASUS(R) WSMBIOS Utility Rev. 1.32 Build Sep 27 2021
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Memory Locator:Controller0-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+                      Return Code = 0
+WSMBIOS.EXE /C -MEMLOC "Controller1-ChannelA-DIMM0" -MEMSIZE 4096   
+   WSMBIOS - ASUS(R) WSMBIOS Utility Rev. 1.32 Build Sep 27 2021
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Memory Locator:Controller1-ChannelA-DIMM0
+
+[Check Memory Size]:Pass (4096 = 4096)
+
+
+                      Return Code = 0
+total memory size is : 8192
+   WMC - ASUS(R) WMC Utility Rev. 2.43 Build Jun  5 2020
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+                      Return Code = 0
+* CPU External Clock+MEMORY SLOT/SIZE CHECK PASS *

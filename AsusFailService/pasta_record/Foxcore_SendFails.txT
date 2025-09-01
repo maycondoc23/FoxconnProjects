@@ -1,0 +1,32 @@
+MB SFIS: NBQH1110053129106C3400
+STATION: FT1-01
+DATE: 07/11/2024 TIME: 22:34:44
+FAIL(s) CODE(s): 1122V11P29K1
+FAIL(s) NAME(s): ['DEVICESCAN_1', 'DisPowerBtn', 'ScanBarc']
+
+
+
+--------------- DEVICESCAN_1 --------------- 
+
+FALHA DE DEVICE SCAN
+
+--------------- DisPowerBtn --------------- 
+
+FALHA DE DisPowerBtn
+
+--------------- ScanBarc --------------- 
+
+FALHA DE DisPowerBtnFALHA DE DisPowerBtn
+FALHA DE DisPowerBtn
+FALHA DE DisPowerBtn
+
+FALHA DE DisPowerBtnFALHA DE DisPowerBtnFALHA DE DisPowerBtn
+
+FALHA DE DisPowerBtnFALHA DE DisPowerBtn
+FALHA DE DisPowerBtnFALHA DE DisPowerBtn
+FALHA DE DisPowerBtnFALHA DE DisPowerBtnFALHA DE DisPowerBtn
+FALHA DE DisPowerBtn
+FALHA DE DisPowerBtn
+
+
+FALHA DE DisPowerBtnFALHA DE DisPowerBtn

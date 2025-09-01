@@ -1,0 +1,104 @@
+ 
+********************** 
+*** video 2.0 test *** 
+********************** 
+ 
+::wdisplaytest.exe /init -ddc 
+FD invalid.
+                ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.37 Build Feb  2 2023
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+deleting log
+            Return Code = 0,DT=9891
+
+FD invalid.
+ 
+::WDisplayTest.exe /T -HDMI -debug -reset 
+FD invalid.
+[2024-11-19 07:19:39 548,0000105c,libtdc::init_cmd_line:1215,D] cmdline=WDisplayTest.exe /T -HDMI -debug -reset 
+                ASUSTeK COMPUTER INC. WDisplayTest Utility  Rev.1.37 Build Feb  2 2023
+**********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  **********
+[2024-11-19 07:19:39 548,0000105c,libtdc::tdc_init:1231,D] E log file WDisplayTest.log create ok
+[2024-11-19 07:19:39 548,0000105c,main:3802,D] verifying platform.
+[2024-11-19 07:19:39 548,0000105c,platform_verify:63,D] E oem=ASUSTeK COMPUTER INC.,platform=PRIME H610M-CS D4
+[2024-11-19 07:19:39 548,0000105c,platform_verify:298,D] current platform:svid=1043,oem=ASUSTeK COMPUTER INC.,product=PRIME H610M-CS D4,bios_vendor=American Megatrends Inc.,bios_version=3403,bios_size=1000000 rc=1
+[2024-11-19 07:19:39 548,0000105c,InitSystemInfo:3206,D] Display InstanceId:PCI\VEN_8086&DEV_4692&SUBSYS_86941043&REV_0C\3&11583659&0&10
+[2024-11-19 07:19:39 549,0000105c,InitSystemInfo:3212,D] Display Adaptor:Intel(R) UHD Graphics
+[2024-11-19 07:19:39 549,0000105c,InitSystemInfo:3206,D] Display InstanceId:ROOT\BASICDISPLAY\0000
+[2024-11-19 07:19:39 550,0000105c,DisableWindowsNotification:595,D]  E
+[2024-11-19 07:19:39 551,0000105c,CDisplayManager::LoadTestConfig:37,D] Load Test Config From VIDEO_TEST.INI
+[2024-11-19 07:19:39 552,0000105c,CDisplayManager::LoadTestConfig:85,D] MainDisplayPort=TDC_VGA
+[2024-11-19 07:19:39 552,0000105c,CDisplayManager::LoadTestConfig:80,D] MonitorName=TDC_HDMI
+[2024-11-19 07:19:39 552,0000105c,CDisplayManager::LoadTestConfig:80,D] MonitorName=TDC_DVI
+[2024-11-19 07:19:39 552,0000105c,CDisplayManager::LoadTestConfig:80,D] MonitorName=TDC_DP
+[2024-11-19 07:19:39 553,0000105c,CDisplayManager::LoadTestConfig:80,D] MonitorName=TDC_VGA
+[2024-11-19 07:19:39 553,0000105c,CDisplayManager::LoadTestConfig:80,D] MonitorName=TDC_LVDS
+[2024-11-19 07:19:39 553,0000105c,TestMonitor:887,D] test monitor name=TDC_HDMI,Config size=13
+[2024-11-19 07:19:39 553,0000105c,CDisplayManager::AssignCurrentTestItem:2095,D]  MonotorName=TDC_HDMI,x=0,y=0,w=3840,h=2160,freq=30
+[2024-11-19 07:19:39 554,0000105c,InitTargetPort:665,D] Init Target Port:TDC_HDMI,pos[0,0]
+[2024-11-19 07:19:39 554,0000105c,SendDDCCommand:361,D] Check.size=2,dwMonitorCount=1
+[2024-11-19 07:19:39 554,0000105c,SendDDCCommand:365,D] DDC i=0,x=0,y=0,Cmd HDMI Switch 7619
+[2024-11-19 07:19:40 110,0000105c,SendDDCCommand:365,D] DDC i=1,x=0,y=0,Cmd HDMI Switch FPGA
+[2024-11-19 07:19:41 188,0000105c,InitTargetPort:734,D] Searching Device Target=TDC_HDMI
+[2024-11-19 07:19:41 188,0000105c,InitTargetPort:742,D] Found Target Device:TDC_HDMI,status=0x0,pos[0,0]
+[2024-11-19 07:19:41 210,0000105c,IntelVGAOutputControl:39,E] CoCreateInstance error m_hr=0x800700C1
+[2024-11-19 07:19:41 210,0000105c,intel_getDisplayInfo:963,D]  Init Intel CUI Interface Failed.
+[2024-11-19 07:19:41 210,0000105c,InitTargetPort:749,D] setting test display mode
+[2024-11-19 07:19:41 211,0000105c,gdi_get_devices:3277,D] driver:    device=Intel(R) UHD Graphics,name=\\.\DISPLAY1,id=,key=\Registry\Machine\System\CurrentControlSet\Control\Video\{A55AF46B-B487-11ED-8C2C-806E6F6E6963}\0000,flag=5
+[2024-11-19 07:19:41 211,0000105c,gdi_get_devices:3287,D]     device:    device=Generic PnP Monitor,name=\\.\DISPLAY1\Monitor0,id=\\?\DISPLAY#DELD051#4&24219e88&0&UID12356#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7},key=\Registry\Machine\System\CurrentControlSet\Control\Class\{4d36e96e-e325-11ce-bfc1-08002be10318}\0029,flag=3
+[2024-11-19 07:19:41 217,0000105c,gdi_get_devices:3277,D] driver:    device=Intel(R) UHD Graphics,name=\\.\DISPLAY2,id=,key=\Registry\Machine\System\CurrentControlSet\Control\Video\{A55AF46B-B487-11ED-8C2C-806E6F6E6963}\0001,flag=0
+[2024-11-19 07:19:41 217,0000105c,gdi_get_devices:3277,D] driver:    device=Intel(R) UHD Graphics,name=\\.\DISPLAY3,id=,key=\Registry\Machine\System\CurrentControlSet\Control\Video\{A55AF46B-B487-11ED-8C2C-806E6F6E6963}\0002,flag=0
+[2024-11-19 07:19:41 217,0000105c,gdi_get_devices:3277,D] driver:    device=Intel(R) UHD Graphics,name=\\.\DISPLAY4,id=,key=\Registry\Machine\System\CurrentControlSet\Control\Video\{A55AF46B-B487-11ED-8C2C-806E6F6E6963}\0003,flag=0
+[2024-11-19 07:19:41 230,0000105c,CDisplayManager::SetTestExtendMode:1579,D]  Primary Device: DELL E1913 x=0,y=0,w=1440,h=900.
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1308,D] DELL E1913.activeSize=[1440 x 900] 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1309,D] DELL E1913.totalSize=[1904 x 934] 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1310,D] DELL E1913.hSyncFreq=106500000/1904 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1311,D] DELL E1913.vSyncFreq=106500000/1778336 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1312,D] DELL E1913.pixelRate=106500000 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1313,D] DELL E1913.vSyncFreqDivider=0x0 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1314,D] DELL E1913.AdditionalSignalInfo.videoStandard=0x1 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1315,D] DELL E1913.scanLineOrdering=1 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1316,D] DELL E1913.videoStandard=0x1 
+[2024-11-19 07:19:41 230,0000105c,CDisplayManager::SetTestExtendMode:1583,D]  Secondary Device: TDC_HDMI x=1440,y=0,w=1920,h=1080.
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1308,D] TDC_HDMI.activeSize=[3840 x 2160] 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1309,D] TDC_HDMI.totalSize=[4416 x 2268] 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1310,D] TDC_HDMI.hSyncFreq=300464640/4416 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1311,D] TDC_HDMI.vSyncFreq=300464640/10015488 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1312,D] TDC_HDMI.pixelRate=300464640 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1313,D] TDC_HDMI.vSyncFreqDivider=0x0 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1314,D] TDC_HDMI.AdditionalSignalInfo.videoStandard=0x1b 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1315,D] TDC_HDMI.scanLineOrdering=1 
+[2024-11-19 07:19:41 230,0000105c,printVideoSignalInfo:1316,D] TDC_HDMI.videoStandard=0x1b 
+[2024-11-19 07:19:41 402,0000105c,CDisplayManager::SetTestExtendMode:1593,E] SetDisplayConfig  ret = 0  
+[2024-11-19 07:19:42 415,0000105c,CDisplayManager::SetDisplayScale:1331,D]  E name=TDC_HDMI x=0,y=0,vid=0,pid=0 flags=1
+[2024-11-19 07:19:42 415,0000105c,CDisplayManager::SetDisplayScale:1356,D] getting scale from TDC_HDMI
+[2024-11-19 07:19:42 415,0000105c,CDisplayManager::SetDisplayScale:1368,D] setting scale to TDC_HDMI,mix=1,max=-7,scales:100,125,150,175,200,225,250,300,350,
+[2024-11-19 07:19:43 434,0000105c,TestMonitor:937,D] current display name=DELL E1913,pos=[0,0],w=1440,h=900,active=1
+[2024-11-19 07:19:43 434,0000105c,TestMonitor:937,D] current display name=TDC_HDMI,pos=[1440,0],w=3840,h=2160,active=1
+[2024-11-19 07:19:43 434,0000105c,TestMonitor:1022,D] Test Current Monitor Target=TDC_HDMI,MainDisplayPort=TDC_VGA
+[2024-11-19 07:19:43 434,00000c64,CreateTestWindow:74,D] E.
+[2024-11-19 07:19:43 439,00000c64,CreateTestWindow:92,D] Test Window Created x=1440,y=0,w=3840,h=2160, timeout=5000
+[2024-11-19 07:19:43 979,00000c64,UpdateTestWindow:537,D] E x=1440,y=0,w=3840,h=2160
+[2024-11-19 07:19:48 754,00000c64,CreateTestWindow:116,D] Test Window Timeout Reached Closing.
+[2024-11-19 07:19:48 763,00000c64,CreateTestWindow:133,D] Test Window Closed.dt=5329,FrameCount=217
+[2024-11-19 07:19:48 764,0000105c,TestMonitor:1063,D] Checking Test Result Target=TDC_HDMI,current pos[1440,0]
+[2024-11-19 07:19:48 764,0000105c,GetVideoDDCTestResult:2372,D] E point(0,0)
+[2024-11-19 07:19:49 137,0000105c,GetVideoDDCTestResult:2408,D] Successed To Clear Register Offset
+[2024-11-19 07:19:49 922,0000105c,TestMonitor:1155,D] TDC_HDMI frame size check config size=3840x2160,actual size=3840x2160
+[2024-11-19 07:19:49 922,0000105c,TestMonitor:1198,D] TDC_HDMI  PASS
+TDC_HDMI Result=PASS
+[2024-11-19 07:19:49 937,0000105c,TestMonitor:1242,D] bReset=1
+[2024-11-19 07:19:49 937,0000105c,TestMonitor:1255,D] Reseting Test Card.
+[2024-11-19 07:19:49 939,0000105c,SendDDCCommand:361,D] Check.size=2,dwMonitorCount=1
+[2024-11-19 07:19:49 939,0000105c,SendDDCCommand:365,D] DDC i=0,x=0,y=0,Cmd Switch VGA Out
+[2024-11-19 07:19:50 106,0000105c,SendDDCCommand:365,D] DDC i=1,x=0,y=0,Cmd Reset On
+[2024-11-19 07:19:50 170,0000105c,SendDDCCommand:361,D] Check.size=2,dwMonitorCount=1
+[2024-11-19 07:19:50 170,0000105c,SendDDCCommand:365,D] DDC i=0,x=0,y=0,Cmd Switch VGA Out
+[2024-11-19 07:19:50 341,0000105c,SendDDCCommand:365,D] DDC i=1,x=0,y=0,Cmd Reset On
+[2024-11-19 07:19:50 403,0000105c,SetMonitorPower:27,D] Setting Monitor Power state=-1
+[2024-11-19 07:19:50 409,0000105c,TestMonitor:1270,D] X rc=0
+deleting log
+            Return Code = 0,DT=12940
+
+FD invalid.
+ 
+*** VIDEO TEST PASS *** 

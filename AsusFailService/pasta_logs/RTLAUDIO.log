@@ -1,0 +1,7 @@
+WAUTEST.EXE 1.30 
+*** For RTL-ALC8** test ***
+ 
+::1st 
+::start /wait wautest.exe 
+ 
+**** Audio test pass **** 

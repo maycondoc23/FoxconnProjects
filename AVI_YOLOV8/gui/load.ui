@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>706</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::WheelFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Setup</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../png/honhai.png</normaloff>../png/honhai.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F0F8FF</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="dahengbtn">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>11</y>
+      <width>321</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius: 8px;
+    padding: 5px 10px;
+	background-color: white;
+	border: 0.6px solid lightgrey
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+ 
+QPushButton:pressed {
+    background-color: orange;
+}</string>
+    </property>
+    <property name="text">
+     <string>DAGENG CAMERA</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../png/daheng.png</normaloff>../png/daheng.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>75</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plugplaybtn">
+    <property name="geometry">
+     <rect>
+      <x>368</x>
+      <y>11</y>
+      <width>321</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border-radius: 8px;
+    padding: 5px 10px;
+	background-color: white;
+	border: 0.6px solid lightgrey
+}
+
+QPushButton:hover {
+    background-color: lightblue;
+}
+ 
+QPushButton:pressed {
+    background-color: orange;
+}</string>
+    </property>
+    <property name="text">
+     <string>PLUG-IN PLAY CAMERA</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../png/plugplay.png</normaloff>../png/plugplay.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="projetobox">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>131</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white; border: 1px solid lightgrey</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="produtobox">
+    <property name="geometry">
+     <rect>
+      <x>367</x>
+      <y>131</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white; border: 1px solid lightgrey</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submitbtn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>300</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:white;
+	text-align:left;
+	padding-left:10px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+    </property>
+    <property name="text">
+     <string>        Avançar</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../png/done.png</normaloff>../png/done.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>133</x>
+      <y>101</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Projeto</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>494</x>
+      <y>103</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Produto</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>194</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>PartNumber</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="pnbox">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>224</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white; border: 1px solid lightgrey</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>492</x>
+      <y>194</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="prgbox">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>224</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:white; border: 1px solid lightgrey</string>
+    </property>
+    <property name="editable">
+     <bool>true</bool>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

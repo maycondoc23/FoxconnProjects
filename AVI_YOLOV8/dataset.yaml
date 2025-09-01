@@ -1,0 +1,5 @@
+train: C:\ProgramData\Galaxy\userdata\ImagesAndVideos\old\images\train
+val: C:\ProgramData\Galaxy\userdata\ImagesAndVideos\old\images\train
+
+nc: 17
+names: ['RJ45_BOT', 'BOSA_BOT', 'PARAFUSO', 'DATAMATRIX', 'USB_BOT', 'POWERBTN_BOT', 'BOSA_4P_BOT', 'HDMI', 'P2AUDIOAZUL', 'P2AUDIOVERDE', 'CONECTORLCD', 'CAPACITOR', 'CONECTORSPEAKER', 'CONECTORBL', 'CONECTORKB', 'VGA', 'P2AUDIO']

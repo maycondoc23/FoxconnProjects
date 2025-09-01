@@ -1,0 +1,568 @@
+[00:00:016] Time:[2024-09-13 21:56:40.080] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:031] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-09-13 21:56:40.518] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:047] ---end function /REFFRQ,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 12:10:48.230] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:10:48.548] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:062] ---end function /REFFRQ,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.363] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:062] ---end function /SH,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.691] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:062] ---end function /REFFRQ,result 255.---
+[00:00:062] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:23:45.754] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 12:30:32.022] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:32.351] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:062] ---end function /REFFRQ,result 255.---
+[00:00:062] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:30:32.413] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 12:35:03.394] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.737] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:062] ---end function /REFFRQ,result 255.---
+[00:00:062] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:03.800] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 12:45:13.917] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 12:45:14.245] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:047] ---end function /REFFRQ,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:13.703] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:062] ---end function /SH,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:14.031] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:14.093] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:17:39.638] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /SH 8192
+[00:00:031] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 14:17:39.966] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:063] ---end function /REFFRQ,result 255.---
+[00:00:063] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:17:40.028] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 14:23:14.228] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:14.541] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:14.603] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 14:31:30.186] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:30.499] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:062] ---end function /REFFRQ,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-11 14:55:03.897] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:04.225] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:062] ---end function /REFFRQ,result 255.---
+[00:00:062] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:04.288] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 07:31:12.707] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 07:31:13.129] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:13.191] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:031] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-11 14:59:20.236] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:20.564] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:062] ---end function /REFFRQ,result 255.---
+[00:00:062] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:20.627] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 07:52:31.430] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 07:52:31.774] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:31.836] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 07:58:54.747] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:55.169] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-12 07:58:55.231] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:031] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:12.577] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:062] ---end function /SH,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:04:12.906] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:04:12.968] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:000] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:016] ---end function /REFFRQ,result 0.---
+[00:00:016] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:07:39.476] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 08:07:39.804] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:047] ---end function /REFFRQ,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:27:28.696] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:062] ---end function /SH,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:27:29.025] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:000] Time:[2024-11-12 08:27:29.087] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:000] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:016] ---end function /REFFRQ,result 0.---
+[00:00:016] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 08:31:02.127] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:02.471] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:047] ---end function /REFFRQ,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:02.113] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:062] ---end function /SH,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-12 08:34:02.473] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:016] Time:[2024-11-12 08:34:02.535] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:016] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-13 10:02:25.633] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.930] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:031] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:25.992] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:06:07.761] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:08.074] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:031] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:08.136] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:015] ---end function /REFFRQ,result 0.---
+[00:00:015] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:20.886] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /SH 8192
+[00:00:031] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:062] ---end function /SH,result 0.---
+[00:00:062] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-13 10:09:21.214] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:000] Time:[2024-11-13 10:09:21.261] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:000] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:016] ---end function /REFFRQ,result 0.---
+[00:00:016] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-18 10:35:25.567] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:015] Time:[2024-11-18 10:35:25.895] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:031] ---start function /REFFRQ.---
+Memory Speed:2400.00 MHz
+[Memory Speed test]: Pass!
+[00:00:047] ---end function /REFFRQ,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-18 22:09:26.600] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:032] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:047] ---end function /SH,result 0.---
+[00:00:047] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-18 22:09:26.928] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:047] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:063] ---end function /REFFRQ,result 255.---
+[00:00:063] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:000] Time:[2024-11-18 22:09:26.990] 
+[00:00:000] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:000] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:016] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:016] ---end function /REFFRQ,result 0.---
+[00:00:016] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-19 07:19:25.111] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /SH 8192
+[00:00:047] ---start function /SH.---
+Available size of memory is:8192 MByte
+[Memory size test]:pass! 
+[00:00:063] ---end function /SH,result 0.---
+[00:00:063] ===end tool:WMC.EXE,result 0, error code ffffff.===
+[00:00:016] Time:[2024-11-19 07:19:25.439] 
+[00:00:016] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:016] command line:WMC.EXE /REFFRQ 2400 -TOL 1
+[00:00:032] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Fail!
+[00:00:047] ---end function /REFFRQ,result 255.---
+[00:00:047] ===end tool:WMC.EXE,result 255, error code ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:25.501] 
+[00:00:015] ===start tool:WMC.EXE (tool Ver.2.43,tthlp Ver.1.09).===
+[00:00:015] command line:WMC.EXE /REFFRQ 2133 -TOL 1
+[00:00:015] ---start function /REFFRQ.---
+Memory Speed:2133.00 MHz
+[Memory Speed test]: Pass!
+[00:00:031] ---end function /REFFRQ,result 0.---
+[00:00:031] ===end tool:WMC.EXE,result 0, error code ffffff.===

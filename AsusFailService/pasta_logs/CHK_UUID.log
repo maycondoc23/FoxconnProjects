@@ -1,0 +1,4 @@
+Compare T_UUID_MAC.INI & SC_MAC1.INI12/12Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(T_UUID_MAC.INI)	file2(SC_MAC1.INI)
+... File Compare OK ...* Check UUID PASS *

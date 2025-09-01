@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>355</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Classe</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="cancelarbtn">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#ff7474;
+	text-align:left;
+	margin-bottom:4px
+    }    
+QPushButton:hover {
+	background:red
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../png/decline.png</normaloff>../png/decline.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLineEdit" name="classeinput">
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="cursorMoveStyle">
+      <enum>Qt::VisualMoveStyle</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="definirbtn">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#b7ffd7;
+	text-align:center;
+	margin-bottom:4px;
+
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+     </property>
+     <property name="text">
+      <string>Definir</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../png/done.png</normaloff>../png/done.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="autoRepeatDelay">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QListWidget" name="classelista">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

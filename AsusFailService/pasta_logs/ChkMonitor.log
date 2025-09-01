@@ -1,0 +1,14 @@
+ 
+************************ 
+*** chk monitor info *** 
+************************ 
+   WDisplayTest - ASUS(R) WDisplayTest Utility Rev. 1.00 Build Jul  9 2018
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+MonitorName         ,DefaultMode         ,MID                 ,PID                 ,
+DELL E1913          ,1440x900  @   59Hz  ,AC10                ,D051                ,
+                      Return Code = 0
+ 
+Search Data =                     ,
+The Result Is :
+ 
+*** monitor info chk Pass *** 

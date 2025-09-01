@@ -1,0 +1,10 @@
+ 
+::WLPTCHK.EXE -epp WINBOND -reg 
+WLPTCHK - ASUS(R) Parallel Port Check Tool under WINDOWS Utility Rev. 1.18
+                 Build May 31 2018
+**********  Copyright (C) ASUSTek Computer Inc. All Rights Reserved.  **********
+Iobase= 0x0378  0x0378
+Checking LPT1:
+LPT1 OK!
+                    Return_Code=0 
+*** PRINT TEST PASS *** 

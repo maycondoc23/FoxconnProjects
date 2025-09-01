@@ -1,0 +1,12 @@
+   WCHKTIME - ASUS(R) WCHKTIME Utility Rev. 1.11 Build Dec  1 2017
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Time was successfully retreived from NTP server
+                            DD/MM/YYYY  HH:MM:SS.MS
+Client Originate Date was   19/11/2024, 11:20:15.826
+Server Receive Date was     19/11/2024, 11:20:15.884
+Server Transmit Date was    19/11/2024, 11:20:15.884
+Client Destination Date was 19/11/2024, 11:20:15.904
+Round trip delay was 0.078000 seconds
+Local clock deviation was 0.019280 seconds
+                      Return Code = 0
+* System Time automatic check OK!*

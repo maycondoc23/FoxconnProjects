@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1561</width>
+    <height>857</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:#f1f4f7</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="4" column="0" rowspan="6" colspan="5">
+       <widget class="QLabel" name="labelimg">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+          <horstretch>20</horstretch>
+          <verstretch>255</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 1px solid black; border-radius:4px</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0" colspan="6">
+       <widget class="QFrame" name="frame_2">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>79</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="voltarbtn">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>149</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#aad9ff;
+	margin-bottom:4px
+    }    
+QPushButton:hover {
+	background:#418def
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+           </property>
+           <property name="text">
+            <string>Voltar</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../png/voltar2.png</normaloff>../png/voltar2.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="avancarbtn">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#b7ffd7;
+	text-align:center;
+	margin-bottom:4px;
+
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+           </property>
+           <property name="text">
+            <string>Finalizar procedimento</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../png/done.png</normaloff>../png/done.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>0</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="4" column="5">
+       <widget class="QLabel" name="label">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Testes Adicionados</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="carregarimgbtn_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>240</width>
+          <height>103</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>400</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:10px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+        </property>
+        <property name="text">
+         <string>Nova Foto</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../png/plugplay.png</normaloff>../png/plugplay.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>54</width>
+          <height>60</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="carregarimgbtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>243</width>
+          <height>103</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>400</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:10px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+        </property>
+        <property name="text">
+         <string>Carregar Imagem</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../png/imagem.png</normaloff>../png/imagem.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>52</width>
+          <height>53</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" rowspan="3">
+       <widget class="QFrame" name="frame_3">
+        <property name="maximumSize">
+         <size>
+          <width>404</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:orange;border-bottom: 1px solid lightgrey ; border-radius:10px</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>200</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <pointsize>17</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+             <stylestrategy>PreferDefault</stylestrategy>
+             <kerning>true</kerning>
+            </font>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">margin-top:10px; border-radius:5px; margin-left:5px; color:black; border: 0px solid white; background: orange; text-align: left
+</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;Plano de teste&lt;/span&gt;&lt;/p&gt;&lt;p&gt;      SETUP&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="9" column="5">
+       <widget class="QPushButton" name="deletar">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>190</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>700</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::CustomContextMenu</enum>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#fe8d8d;
+	text-align:left;
+	margin-bottom:4px;
+	padding-left:40px;;
+margin-right:15px;
+margin-top:10px;
+    }    
+QPushButton:hover {
+	background:red
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+        </property>
+        <property name="text">
+         <string>Excluir Teste Selecionado</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../png/decline.png</normaloff>../png/decline.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="5" rowspan="4">
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="minimumSize">
+         <size>
+          <width>330</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QScrollArea QScrollBar:vertical {
+    width: 8px;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+QScrollArea QScrollBar::handle:vertical {
+    background: #f8c66a;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollArea QScrollBar:horizontal {
+    height: 8px;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+QScrollArea QScrollBar::handle:horizontal {
+    background: #f8c66a;
+    border-radius: 4px;
+    min-width: 20px;
+}</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAsNeeded</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAsNeeded</enum>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>328</width>
+           <height>501</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5"/>
+        </widget>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QPushButton" name="plugplayframebtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>190</width>
+          <height>103</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>500</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:10px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+        </property>
+        <property name="text">
+         <string>Configurar Diretorio
+Para salvar imagens</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../png/config.png</normaloff>../png/config.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>45</width>
+          <height>45</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="inspecionarbtn">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>190</width>
+          <height>103</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>500</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:10px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+        </property>
+        <property name="text">
+         <string>Configuração
+SFC</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../png/config.png</normaloff>../png/config.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="carregarimgbtn_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>240</width>
+          <height>103</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>400</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:10px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+        </property>
+        <property name="text">
+         <string>Nova Foto</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../png/daheng.png</normaloff>../png/daheng.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>75</width>
+          <height>75</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

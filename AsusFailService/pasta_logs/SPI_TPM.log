@@ -1,0 +1,19 @@
+Customer 1.01 
+
+TCG Version is:  2.0, Spec Level: 0, Revision: 1.38, Errata: 2018.8
+
+FW Version is:   7.2.1.0
+
+Command Passed
+Search Data = FW Version is:   7.2.
+The Result Is :
+Line 4 =FW Version is:   7.2.1.0
+ 
+
+Command Passed
+ 
+Search Data = command pass
+The Result Is :
+Line 2 =Command Passed
+ 
+*** TPM Card self test pass *** 

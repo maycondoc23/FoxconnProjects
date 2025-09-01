@@ -1,0 +1,2877 @@
+[00:00:000] Time:[2024-09-13 21:56:33.681] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:020] ---end function /vd,result 0.---
+[00:00:020] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-09-13 21:57:00.183] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-09-13 21:57:01.527] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x4          Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-09-13 21:57:01.965] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-09-13 21:57:05.136] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-09-13 21:57:05.167] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Error device(s): 15
+Check failed!(PCIDEVINFO.INI)
+[00:00:093] ---end function /chk,result 255.---
+[00:00:093] ===end tool:wpci.exe,result 255, error code 2000005.===
+[00:00:000] Time:[2024-11-11 12:10:24.983] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-11 12:10:41.379] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 12:11:09.925] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:11:11.219] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x4          Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:11:11.657] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:11:13.594] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:11:13.641] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Error device(s): 15
+Check failed!(PCIDEVINFO.INI)
+[00:00:078] ---end function /chk,result 255.---
+[00:00:078] ===end tool:wpci.exe,result 255, error code 2000005.===
+[00:00:015] Time:[2024-11-11 12:12:12.912] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x4          Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 12:23:39.598] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 12:24:07.159] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:08.448] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:08.854] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:10.838] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:24:10.870] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Error device(s): 15
+Check failed!(PCIDEVINFO.INI)
+[00:00:093] ---end function /chk,result 255.---
+[00:00:093] ===end tool:wpci.exe,result 255, error code 2000005.===
+[00:00:000] Time:[2024-11-11 12:30:25.070] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 12:31:06.003] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:07.276] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:07.713] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:31:09.651] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 12:31:09.682] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:000] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Error device(s): 15
+Check failed!(PCIDEVINFO.INI)
+[00:00:078] ---end function /chk,result 255.---
+[00:00:078] ===end tool:wpci.exe,result 255, error code 2000005.===
+[00:00:000] Time:[2024-11-11 12:34:57.487] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-11 12:35:27.240] 
+[00:00:000] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:000] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:28.534] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:28.956] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:30.862] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:35:30.894] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 12:44:42.567] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-11 12:45:03.126] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-11 12:45:07.246] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 12:45:37.810] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:39.111] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 12:45:39.533] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-11 12:46:23.345] 
+[00:00:019] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:wpci.exe /III 31
+[00:00:019] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:034] ---end function /III,result 0.---
+[00:00:034] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:020] Time:[2024-11-11 12:46:23.385] 
+[00:00:020] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:020] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:020] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:099] ---end function /chk,result 0.---
+[00:00:099] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:14:06.750] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 14:14:47.898] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:49.175] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:49.596] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:51.489] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:14:51.520] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:17:33.279] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-11 14:18:01.831] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:03.344] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:18:03.766] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:010] Time:[2024-11-11 14:18:48.649] 
+[00:00:010] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:010] command line:wpci.exe /III 31
+[00:00:010] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:035] ---end function /III,result 0.---
+[00:00:035] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:010] Time:[2024-11-11 14:18:48.689] 
+[00:00:010] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:010] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:010] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:095] ---end function /chk,result 0.---
+[00:00:095] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:23:09.197] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-11 14:23:35.604] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:37.200] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:23:37.825] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-11 14:23:40.412] 
+[00:00:019] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:wpci.exe /III 31
+[00:00:019] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:035] ---end function /III,result 0.---
+[00:00:035] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-11 14:23:40.452] 
+[00:00:019] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:019] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:094] ---end function /chk,result 0.---
+[00:00:094] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:31:23.827] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 14:31:52.282] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:31:53.768] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:31:54.174] 
+[00:00:000] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:000] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:011] Time:[2024-11-11 14:31:56.527] 
+[00:00:011] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:011] command line:wpci.exe /III 31
+[00:00:011] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:030] ---end function /III,result 0.---
+[00:00:030] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:010] Time:[2024-11-11 14:31:56.566] 
+[00:00:010] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:010] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:010] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Error device(s): 15
+Check failed!(PCIDEVINFO.INI)
+[00:00:090] ---end function /chk,result 255.---
+[00:00:090] ===end tool:wpci.exe,result 255, error code 2000005.===
+[00:00:000] Time:[2024-11-11 14:54:56.761] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 14:55:27.811] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:29.085] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:29.507] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:55:31.659] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /III 31
+[00:00:000] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:015] ---end function /III,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:55:31.706] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 07:30:18.682] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-12 07:31:04.286] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-12 07:31:32.767] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:34.150] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x8          Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:34.603] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:37.901] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 07:31:37.948] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-11 14:58:40.285] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-11 14:59:41.751] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:43.040] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x8          Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:43.478] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:45.571] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-11 14:59:45.603] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 07:51:03.935] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-12 07:52:53.884] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 07:52:55.247] 
+[00:00:000] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:000] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 07:52:55.700] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-12 07:52:57.989] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /III 31
+[00:00:009] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:029] ---end function /III,result 0.---
+[00:00:029] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-12 07:52:58.029] 
+[00:00:019] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:019] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:095] ---end function /chk,result 0.---
+[00:00:095] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 07:58:48.935] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-12 07:59:14.595] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:031] Time:[2024-11-12 07:59:16.168] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 07:59:16.959] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:119] ---end function /PCIESP,result 0.---
+[00:00:119] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-12 07:59:20.765] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /III 31
+[00:00:009] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:029] ---end function /III,result 0.---
+[00:00:029] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:010] Time:[2024-11-12 07:59:20.805] 
+[00:00:010] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:010] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:010] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:090] ---end function /chk,result 0.---
+[00:00:090] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:02:14.100] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 255.---
+[00:00:015] ===end tool:wpci.exe,result 255, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:04:03.124] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-12 08:04:36.516] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:37.798] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:38.220] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:40.409] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:04:40.440] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+6    00    00   1B21  1242  00  1B21  1242  USB3.0 controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+16 device(s) checked
+There are 31 device(s) found in system
+Error device(s): 15
+Check failed!(PCIDEVINFO.INI)
+[00:00:093] ---end function /chk,result 255.---
+[00:00:093] ===end tool:wpci.exe,result 255, error code 2000005.===
+[00:00:015] Time:[2024-11-12 08:04:52.946] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:07:25.484] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-12 08:07:33.663] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-12 08:08:03.332] 
+[00:00:000] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:000] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:08:04.662] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-12 08:08:05.533] 
+[00:00:019] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:019] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:119] ---end function /PCIESP,result 0.---
+[00:00:119] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:010] Time:[2024-11-12 08:08:05.713] 
+[00:00:010] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:010] command line:WPCI.EXE /PCIESP -id 21421B21 21421B21 -log TEMPPCIEDEVINFO2.INI
+[00:00:010] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:120] ---end function /PCIESP,result 0.---
+[00:00:120] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:08:07.668] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:08:07.715] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:27:22.931] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-12 08:28:02.915] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:28:04.181] 
+[00:00:000] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:000] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:28:04.759] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:28:04.946] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 21421B21 21421B21 -log TEMPPCIEDEVINFO2.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:28:06.899] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:28:06.946] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:28:55.485] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-12 08:31:22.897] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:031] Time:[2024-11-12 08:31:24.389] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:129] ---end function /PCIESP,result 0.---
+[00:00:129] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:25.152] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:31:25.371] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 21421B21 21421B21 -log TEMPPCIEDEVINFO2.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-12 08:31:28.581] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /III 31
+[00:00:009] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:030] ---end function /III,result 0.---
+[00:00:030] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-12 08:31:28.622] 
+[00:00:019] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:019] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:099] ---end function /chk,result 0.---
+[00:00:099] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:33:55.270] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:031] ---end function /vd,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-12 08:34:24.999] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:26.348] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:26.910] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:27.098] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 21421B21 21421B21 -log TEMPPCIEDEVINFO2.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:29.354] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-12 08:34:29.385] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-12 08:41:40.164] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-13 10:02:20.149] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-13 10:02:45.719] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-13 10:02:47.365] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:031] Time:[2024-11-13 10:02:48.192] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:156] ---end function /PCIESP,result 0.---
+[00:00:156] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-13 10:02:51.541] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /III 31
+[00:00:009] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:029] ---end function /III,result 0.---
+[00:00:029] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:011] Time:[2024-11-13 10:02:51.582] 
+[00:00:011] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:011] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:011] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:080] ---end function /chk,result 0.---
+[00:00:080] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-13 10:04:57.822] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-13 10:06:29.816] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:031] Time:[2024-11-13 10:06:31.319] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-13 10:06:31.888] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-13 10:06:34.131] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /III 31
+[00:00:009] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:020] ---end function /III,result 0.---
+[00:00:020] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-13 10:06:34.161] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:009] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:090] ---end function /chk,result 0.---
+[00:00:090] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-13 10:08:36.052] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-13 10:09:15.262] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-13 10:09:42.752] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:031] Time:[2024-11-13 10:09:44.339] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-13 10:09:44.964] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:009] Time:[2024-11-13 10:09:47.248] 
+[00:00:009] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:009] command line:wpci.exe /III 31
+[00:00:009] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:029] ---end function /III,result 0.---
+[00:00:029] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:019] Time:[2024-11-13 10:09:47.288] 
+[00:00:019] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:019] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:019] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:090] ---end function /chk,result 0.---
+[00:00:090] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-13 10:18:40.617] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-18 10:35:59.906] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 10:36:01.189] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:109] ---end function /PCIESP,result 0.---
+[00:00:109] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 10:36:01.751] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 10:36:03.657] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 10:36:03.704] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:078] ---end function /chk,result 0.---
+[00:00:078] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-18 22:00:26.013] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:000] ---end function /vd,result 255.---
+[00:00:000] ===end tool:wpci.exe,result 255, error code 2ffffff.===
+[00:00:000] Time:[2024-11-18 22:04:06.327] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:04:47.280] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:05:23.182] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:05:28.103] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:05:38.031] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:06:33.551] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:07:17.355] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:04:31.232] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:05:39.575] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:05:48.206] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:05:58.257] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:020] ---end function /vd,result 0.---
+[00:00:020] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:08:19.372] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:000] Time:[2024-11-18 22:09:18.007] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:015] Time:[2024-11-18 22:09:48.902] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:50.435] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:124] ---end function /PCIESP,result 0.---
+[00:00:124] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 22:09:51.060] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 22:10:22.053] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-18 22:10:22.100] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:093] ---end function /chk,result 0.---
+[00:00:093] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-19 07:19:19.845] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===
+[00:00:031] Time:[2024-11-19 07:19:44.806] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id 15D38086 11112222 -log M2cfg.ini
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:031] Time:[2024-11-19 07:19:46.419] 
+[00:00:031] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:031] command line:WPCI.EXE /PCIESP -id C0101000 A0241000 -log TEMPPCIEDEVINFO.INI
+[00:00:031] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+01:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Support     060400
+02:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+02:1C:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+03:00:00  2.5|5.0|8.0|16.0GT/s16.0GT/s    x16         Unsupport   060400
+[00:00:140] ---end function /PCIESP,result 0.---
+[00:00:140] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-19 07:19:47.138] 
+[00:00:015] ===start tool:WPCI.EXE (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:WPCI.EXE /PCIESP -id 12421B21 12421B21 -log TEMPPCIEDEVINFO.INI
+[00:00:015] ---start function /PCIESP.---
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+06:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x1          Unsupport   0c0330
+[00:00:125] ---end function /PCIESP,result 0.---
+[00:00:125] ===end tool:WPCI.EXE,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-19 07:20:14.245] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /III 31
+[00:00:015] ---start function /III.---
+Bus= 00,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 10, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 14, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 20, Func= 02, Vendor_ID= 8086
+Bus= 00,Device= 21, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 22, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 23, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 28, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 00, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 03, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 04, Vendor_ID= 8086
+Bus= 00,Device= 31, Func= 05, Vendor_ID= 8086
+Bus= 01,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 02,Device= 28, Func= 00, Vendor_ID= 1000
+Bus= 03,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 05,Device= 00, Func= 00, Vendor_ID= 1000
+Bus= 06,Device= 00, Func= 00, Vendor_ID= 1B21
+Bus= 07,Device= 00, Func= 00, Vendor_ID= 10EC
+Bus= 08,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 01, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 02, Func= 00, Vendor_ID= 8086
+Bus= 09,Device= 04, Func= 00, Vendor_ID= 8086
+Bus= 10,Device= 00, Func= 00, Vendor_ID= 8086
+Bus= 12,Device= 00, Func= 00, Vendor_ID= 8086
+Total device number= 31
+[PCI Check Test]: PASS
+[00:00:031] ---end function /III,result 0.---
+[00:00:031] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:015] Time:[2024-11-19 07:20:14.292] 
+[00:00:015] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:015] command line:wpci.exe /chk PCIDEVINFO.INI
+[00:00:015] ---start function /chk.---
+0    14    00   8086  467F  00  1043  8694  RAID controller
+0    20    00   8086  7AE0  11  1043  8694  USB3.0 controller
+0    20    02   8086  7AA7  11  1043  8694  RAM
+0    21    00   8086  7ACC  11  1043  8694  Other Serial Bus Controllers
+0    22    00   8086  7AE8  11  1043  8694  Other communications device
+0    23    00   8086  7AE2  11  1043  8694  Serial ATA controller-AHCI 1.0
+0    28    00   8086  7AB8  11  1043  8694  PCI-to-PCI bridge
+0    28    03   8086  7ABB  11  1043  8694  PCI-to-PCI bridge
+0    28    04   8086  7ABC  11  1043  8694  PCI-to-PCI bridge
+0    31    00   8086  7A87  11  1043  8694  ISA bridge
+0    31    03   8086  7AD0  11  1043  87FB  Audio device
+0    31    04   8086  7AA3  11  1043  8694  SMBus (System Management Bus)
+0    31    05   8086  7AA4  11  1043  8694  Other Serial Bus Controllers
+5    00    00   1000  C010  B0  1000  00B2  Other mass storage controller
+7    00    00   10EC  8168  15  1043  8677  Ethernet controller
+15 device(s) checked
+There are 31 device(s) found in system
+Check passed!
+[00:00:078] ---end function /chk,result 0.---
+[00:00:078] ===end tool:wpci.exe,result 0, error code 2ffffff.===
+[00:00:000] Time:[2024-11-19 07:23:13.566] 
+[00:00:000] ===start tool:wpci.exe (tool Ver.1.45,tthlp Ver.1.09).===
+[00:00:000] command line:wpci.exe /vd PCI_SCAN_1.ini -chk -noclr
+[00:00:000] ---start function /vd.---
+[00:00:015] ---end function /vd,result 0.---
+[00:00:015] ===end tool:wpci.exe,result 0, error code 2000000.===

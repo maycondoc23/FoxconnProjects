@@ -1,0 +1,5 @@
+::WKB.EXE /PS2MOUSE -reg 
+One PS2 Mouse is found, status is OK.
+                            return code = 0
+ 
+*** PS2 Mouse test PASS *** 

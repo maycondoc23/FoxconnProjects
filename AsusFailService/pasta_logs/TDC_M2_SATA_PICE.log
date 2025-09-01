@@ -1,0 +1,15 @@
+   WPCI - ASUS(R) WPCI Utility Rev. 1.45 Build Jul 11 2019
+*********  Copyright (C) ASUSTeK Computer Inc. All Rights Reserved.  *********
+Address   SuppSpeed         CurrSpeed   LinkWidth   Cross-Link  ClassCode   
+-------------------------------------------------------------------------------
+08:00:00  2.5|5.0|8.0GT/s   8.0GT/s     x4          Unsupport   060400
+09:00:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:01:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:02:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+09:04:00  2.5GT/s           2.5GT/s     x4          Unsupport   060400
+                      Return Code = 0
+Compare M2TMP.ini & M2SATAPCIE.ini151/151Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(M2TMP.ini)	file2(M2SATAPCIE.ini)
+... File Compare OK ... 
+*** M2socket TEST PASS *** 

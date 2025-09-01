@@ -1,0 +1,12 @@
+<h1>Stream IA</h1>
+<img id="frame" width="640">
+<script>
+    let ws = new WebSocket("ws://localhost:8765");
+    let img = document.getElementById("frame");
+    ws.binaryType = "arraybuffer";
+
+    ws.onmessage = (event) => {
+        let blob = new Blob([event.data], {type: "image/jpeg"});
+        img.src = URL.createObjectURL(blob); 
+    };
+</script>

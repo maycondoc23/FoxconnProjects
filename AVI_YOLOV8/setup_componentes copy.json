@@ -1,0 +1,155 @@
+{
+    "BOSA_BOT1": {
+        "classe": "BOSA_BOT",
+        "posicoes": [
+            [
+                4718,
+                1180
+            ]
+        ],
+        "tamanho": [
+            114,
+            107
+        ],
+        "Compare": true,
+        "area": 350,
+        "pads": 5,
+        "compare_mode": 1
+    },
+    "DATAMATRIX1": {
+        "classe": "DATAMATRIX",
+        "posicoes": [
+            [
+                4691,
+                3122
+            ]
+        ],
+        "tamanho": [
+            265,
+            153
+        ],
+        "Compare": false,
+        "area": 200,
+        "pads": 4,
+        "compare_mode": 1
+    },
+    "RJ45_BOT1": {
+        "classe": "RJ45_BOT",
+        "posicoes": [
+            [
+                4079,
+                3077
+            ]
+        ],
+        "tamanho": [
+            254,
+            110
+        ],
+        "Compare": true,
+        "area": 200,
+        "pads": 9,
+        "compare_mode": 1
+    },
+    "RJ45_BOT2": {
+        "classe": "RJ45_BOT",
+        "posicoes": [
+            [
+                3613,
+                3085
+            ]
+        ],
+        "tamanho": [
+            250,
+            114
+        ],
+        "Compare": true,
+        "area": 200,
+        "pads": 9,
+        "compare_mode": 1
+    },
+    "RJ45_BOT3": {
+        "classe": "RJ45_BOT",
+        "posicoes": [
+            [
+                2680,
+                3105
+            ]
+        ],
+        "tamanho": [
+            244,
+            114
+        ],
+        "Compare": true,
+        "area": 200,
+        "pads": 9,
+        "compare_mode": 1
+    },
+    "RJ45_BOT4": {
+        "classe": "RJ45_BOT",
+        "posicoes": [
+            [
+                3137,
+                3094
+            ]
+        ],
+        "tamanho": [
+            246,
+            114
+        ],
+        "Compare": true,
+        "area": 200,
+        "pads": 9,
+        "compare_mode": 1
+    },
+    "USB_BOT1": {
+        "classe": "USB_BOT",
+        "posicoes": [
+            [
+                1587,
+                3137
+            ]
+        ],
+        "tamanho": [
+            198,
+            201
+        ],
+        "Compare": true,
+        "area": 200,
+        "pads": 5,
+        "compare_mode": 1
+    },
+    "BOSA_4P_BOT1": {
+        "classe": "BOSA_4P_BOT",
+        "posicoes": [
+            [
+                4706,
+                843
+            ]
+        ],
+        "tamanho": [
+            96,
+            94
+        ],
+        "Compare": true,
+        "area": 250,
+        "pads": 4,
+        "compare_mode": 1
+    },
+    "POWERBTN_BOT1": {
+        "classe": "POWERBTN_BOT",
+        "posicoes": [
+            [
+                760,
+                2855
+            ]
+        ],
+        "tamanho": [
+            137,
+            224
+        ],
+        "Compare": true,
+        "area": 200,
+        "pads": 6,
+        "compare_mode": 2
+    }
+}

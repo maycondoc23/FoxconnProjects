@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Validação de Imagem</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F0F8FF</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextBesideIcon</enum>
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding:0px</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="0" colspan="5">
+     <widget class="QFrame" name="frame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="labelimg">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+           <horstretch>20</horstretch>
+           <verstretch>255</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black; border-radius:4px</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>../../../../../ProgramData/Galaxy/userdata/ImagesAndVideos/Pic_20250801102343453.bmp</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="openExternalLinks">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QFrame" name="frame_2">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>79</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>149</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#b7ffd7;
+	text-align:left;
+	margin-bottom:4px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+            </property>
+            <property name="text">
+             <string>   Aceitar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../png/done.png</normaloff>../png/done.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" rowspan="2">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:10px;
+	background:#ff7474;
+	text-align:left;
+	margin-bottom:4px
+    }    
+QPushButton:hover {
+	background:red
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+            </property>
+            <property name="text">
+             <string>    Voltar para SDK</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../png/decline.png</normaloff>../png/decline.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="autoRepeatDelay">
+             <number>0</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="5">
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true">background:#F8F8FF;border-bottom: 1px solid orange </string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="3" colspan="3">
+        <widget class="QLabel" name="label_7">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>21</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <stylestrategy>PreferAntialias</stylestrategy>
+           <kerning>true</kerning>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">margin-top:10px; border-radius:5px; margin-left:5px; color:black; border: 0px solid white</string>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Validação de imagem&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QDoubleSpinBox" name="sharpvalue">
+         <property name="minimumSize">
+          <size>
+           <width>79</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>125</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: white; border: 1px solid lightgrey; border-radius:3px;margin:10px</string>
+         </property>
+         <property name="buttonSymbols">
+          <enum>QAbstractSpinBox::UpDownArrows</enum>
+         </property>
+         <property name="correctionMode">
+          <enum>QAbstractSpinBox::CorrectToPreviousValue</enum>
+         </property>
+         <property name="prefix">
+          <string/>
+         </property>
+         <property name="decimals">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <double>5.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QPushButton" name="framebtn">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>279</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>290</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:3px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:15px;
+margin-bottom:15px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+         </property>
+         <property name="text">
+          <string>Submeter e Obter Nova Foto</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../png/daheng.png</normaloff>../png/daheng.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>37</width>
+           <height>37</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QPushButton" name="testcodebtn">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>232</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>248</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+	border: 1px solid lightgrey ; 
+	border-radius:3px;
+	background:white;
+	text-align:center;
+	padding-left:10px;
+margin-top:15px;
+margin-bottom:15px;
+margin-right:15px
+    }    
+QPushButton:hover {
+	background:lightgreen
+    }
+QPushButton:pressed {
+	background:orange
+    }</string>
+         </property>
+         <property name="text">
+          <string>Testar Leitura de Serial</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>../png/barcode.png</normaloff>../png/barcode.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>29</width>
+           <height>29</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>106</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">;margin:10px; border: None</string>
+         </property>
+         <property name="text">
+          <string>Contraste</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>81</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">margin:10px;margin-top:10px
+;border: None</string>
+         </property>
+         <property name="text">
+          <string>Nitidez</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QSpinBox" name="contrastvalue">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: white; border: 1px solid lightgrey; border-radius:3px;margin:10px</string>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="singleStep">
+          <number>1</number>
+         </property>
+         <property name="displayIntegerBase">
+          <number>10</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+::WAT.exe /c CHK_MAC1.ini SC_MAC1.INI -i 1 
+Compare CHK_MAC1.ini & SC_MAC1.INI12/12Compare Line 1 to -1
+Compare Byte 1 to 131072
+line	Arrange	file1(CHK_MAC1.ini)	file2(SC_MAC1.INI)
+... File Compare OK ... 
+* Check Lan Mac PASS * 

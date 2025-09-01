@@ -1,0 +1,237 @@
+{
+    "r1json": {
+        "code": 0,
+        "value": {
+            "total": 1,
+            "statistics": {
+                "fail": 1,
+                "success": 0,
+                "complete": 1
+            },
+            "data": [
+                {
+                    "uploadMode": 1,
+                    "GuidRound": "8153322E-D65A-48E1-8CAB-06410500505A",
+                    "SubStation": "13",
+                    "AteName": "ST-Addax4996A5733",
+                    "WorkOrder": "000095011038",
+                    "OprId": "cmdlateuser1",
+                    "WorkProcedure": 3,
+                    "TestMode": 0,
+                    "ProductLine": "\u63a5\u5165",
+                    "Product": "",
+                    "EquipName": "SmarXU2100-ONT-BOB",
+                    "UUTName": "02315BBN",
+                    "UUTVersion": "1.0.34",
+                    "EquipmentVersion": "1.0.34",
+                    "EquipmentFlag": "---WS=,WSName=MP13,WSCode=,WP=---",
+                    "EquipmentDesc": "2.5.1",
+                    "CMName": "CMRY",
+                    "MachineNo": "",
+                    "NESn": "",
+                    "CabinetSn": "",
+                    "FrameSn": "",
+                    "BoardSn": "",
+                    "BoardCode": "02315BBN",
+                    "PositionSn": "1-1-1",
+                    "FatherItemSn": "",
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "SN": "2102315BBNRYR2917523",
+                    "FromTime": "2025-03-08T10:04:52.000",
+                    "ToTime": "2025-03-08T10:05:07.000",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "Extents": [
+                        {
+                            "ExtenseName": "checkAteName",
+                            "ExtenseValue": "Super_ONT-BOB-TXRX_ST-MP13-V"
+                        },
+                        {
+                            "ExtenseName": "isdebug",
+                            "ExtenseValue": "0"
+                        },
+                        {
+                            "ExtenseName": "opr-role",
+                            "ExtenseValue": "tester"
+                        },
+                        {
+                            "ExtenseName": "localversion",
+                            "ExtenseValue": "3.3.2.9"
+                        },
+                        {
+                            "ExtenseName": "wpname",
+                            "ExtenseValue": "ST"
+                        },
+                        {
+                            "ExtenseName": "Reserved3",
+                            "ExtenseValue": "[R2Cnt=3][R3Cnt=71][TimeOut=90]"
+                        },
+                        {
+                            "ExtenseName": "wsname",
+                            "ExtenseValue": "MP13"
+                        },
+                        {
+                            "ExtenseName": "Reserved2",
+                            "ExtenseValue": "[DataType=Normal]"
+                        }
+                    ],
+                    "TestType": 0,
+                    "HardBinId": 0,
+                    "HardBinName": "",
+                    "SoftBinId": 0,
+                    "SoftBinName": "",
+                    "FixtureSn": "",
+                    "WaferCoordinateX": 0,
+                    "WaferCoordinateY": 0,
+                    "WsType": "TestV2",
+                    "OperatorID": "504273"
+                }
+            ]
+        }
+    },
+    "r2json": {
+        "code": 0,
+        "value": {
+            "total": 3,
+            "statistics": {
+                "fail": 1,
+                "success": 2,
+                "complete": 3
+            },
+            "data": [
+                {
+                    "R1StartTime": "",
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "73308220-43D2-44F5-BBFB-10CD2DD2A772",
+                    "UnitName": "LoopInit",
+                    "ResultDesc": "",
+                    "SN": "2102315BBNRYR2917523",
+                    "FromTime": "2025-03-08T10:04:52.000",
+                    "ToTime": "2025-03-08T10:04:52.000",
+                    "Result": 0,
+                    "BoardType": 0,
+                    "Value": "PASS",
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": false,
+                    "SequenceNo": 0
+                },
+                {
+                    "R1StartTime": "",
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "F17FD508-5B29-4490-87C7-891AE934A540",
+                    "UnitName": "BoardInit",
+                    "ResultDesc": "",
+                    "SN": "2102315BBNRYR2917523",
+                    "FromTime": "2025-03-08T10:04:52.000",
+                    "ToTime": "2025-03-08T10:05:02.000",
+                    "Result": 0,
+                    "BoardType": 0,
+                    "Value": "FAIL",
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": false,
+                    "SequenceNo": 0
+                },
+                {
+                    "R1StartTime": "",
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "C25D6DD3-7A4A-457A-A303-026B01DD8186",
+                    "UnitName": "TU_Query_Test_PONONT_[TXUUT]",
+                    "ResultDesc": "",
+                    "SN": "2102315BBNRYR2917523",
+                    "FromTime": "2025-03-08T10:05:04.000",
+                    "ToTime": "2025-03-08T10:05:07.000",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "Value": "FAIL",
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": false,
+                    "SequenceNo": 0
+                }
+            ]
+        }
+    },
+    "r3json": {
+        "code": 0,
+        "value": {
+            "total": 4,
+            "data": [
+                {
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "C25D6DD3-7A4A-457A-A303-026B01DD8186",
+                    "R3Guid": "C25D6DD3-7A4A-457A-A303-026B01DD81860000002",
+                    "SubUnitName": "IU_Info_Test_cmdctrl_[TuCommCheck_machine itemmachine item]",
+                    "ResultDesc": "{\"log\":\"mode:0\"}",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "Value": "{\"tv\":\"success\",\"std\":\"2102315BBNRYR2917523\"}",
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": 0,
+                    "Extents": [],
+                    "SequenceNo": 3
+                },
+                {
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "C25D6DD3-7A4A-457A-A303-026B01DD8186",
+                    "R3Guid": "C25D6DD3-7A4A-457A-A303-026B01DD81860000004",
+                    "SubUnitName": "IU_Info_Test_cmdctrl_[TuCmdExtract_DDRSoc]",
+                    "ResultDesc": "{\"log\":\"the express[SOC\\\\s*:\\\\s*type\\\\s*:(SD5117(L|M))\\\\s*,] is not match!\"}",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": 0,
+                    "Extents": [],
+                    "SequenceNo": 5
+                },
+                {
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "C25D6DD3-7A4A-457A-A303-026B01DD8186",
+                    "R3Guid": "C25D6DD3-7A4A-457A-A303-026B01DD81860000015",
+                    "SubUnitName": "IU_Config_Get_DeviceParam",
+                    "ResultDesc": "{\"log\":\"GETMANUFACTUREINFOARRAY/DeviceParam result parse exception! barcode is RY2520060199, err is Not found any matched information by this function of  GetDeviceParameters\"}",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": 0,
+                    "Extents": [],
+                    "SequenceNo": 16
+                },
+                {
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "C25D6DD3-7A4A-457A-A303-026B01DD8186",
+                    "R3Guid": "C25D6DD3-7A4A-457A-A303-026B01DD81860000016",
+                    "SubUnitName": "TU_Query_Test_PONONT_[TXUUT]",
+                    "ResultDesc": "{\"log\":Task a6f0ce07-4f4c-4754-8faa-bcc1b77f42aa: execute failed, (router#CFG_ONT_BOB_DSL.dsl:3798) Service: [com.huawei.cloudate.network.SubTestUnitServiceOfmanuinfotest.startTest], Reason: Do test failed, Parameter: {tuName=TuGetDeviceParamInfo, otherParams={barcode=RY2520060199, command=BOSA8}}.}",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "Value": "",
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": 0,
+                    "Extents": [],
+                    "SequenceNo": 17
+                },
+                {
+                    "R1Guid": "E8F8A061-1F58-4F29-9061-48F742094C87",
+                    "R2Guid": "F17FD508-5B29-4490-87C7-891AE934A540",
+                    "R3Guid": "C25D6DD3-7A4A-457A-A303-026B01DD81860000016",
+                    "SubUnitName": "BoardInitSUBTEST[TXUUT]",
+                    "ResultDesc": "{\"log\":Task a6f0ce07-4f4c-4754-8faa-bcc1b77f42aa: execute failed, (router#CFG_ONT_BOB_DSL.dsl:3798) Service: [com.huawei.cloudate.network.SubTestUnitServiceOfmanuinfotest.startTest], Reason: Do test failed, Parameter: {tuName=TuGetDeviceParamInfo, otherParams={barcode=RY2520060199, command=BOSA8}}.}",
+                    "Result": 1,
+                    "BoardType": 0,
+                    "Value": "",
+                    "UpperLimit": 0.0,
+                    "LowerLimit": 0.0,
+                    "IsValue": 0,
+                    "Extents": [],
+                    "SequenceNo": 17
+                }
+            ]
+        }
+    }
+}
